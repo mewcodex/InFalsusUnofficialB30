@@ -1,0 +1,1153 @@
+[
+  {
+    "file": "jackets/alamode.jpg",
+    "sourceBundle": "d3841b284acf8d54b179654c7100d6de.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/alamode.mat",
+    "sourceSHA256": "1084ba28848a8a0499ba7e12b97a64f0e0e45efe275568b9a8a560f454098e38",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 27802
+  },
+  {
+    "file": "jackets/alterededge.jpg",
+    "sourceBundle": "f8c92d7aa92affca6031693a1a7276a2.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/alterededge.mat",
+    "sourceSHA256": "3f72685efd4b8d83a2ffa4d9e66ca5a5638c083bba40a20c9d3146224a63b04c",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 21166
+  },
+  {
+    "file": "jackets/bethere.jpg",
+    "sourceBundle": "ba9fccf554db152e01829a2c5542367d.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/bethere.mat",
+    "sourceSHA256": "e84dc6b4302e66c34fccdf9dd637d884c71dd3789441c3e7d4834f22d6e48206",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 27835
+  },
+  {
+    "file": "jackets/chaoticismlegacy.jpg",
+    "sourceBundle": "780f5c72cc770862ef8f95d473fafb34.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/chaoticismlegacy.mat",
+    "sourceSHA256": "281f0fd9334277526a5679503f138df78cf66f4837125141c376a5216320788d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 37558
+  },
+  {
+    "file": "jackets/chronomia.jpg",
+    "sourceBundle": "fa61c4cd0e369288170a1aa252cdddfe.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/chronomia.mat",
+    "sourceSHA256": "50e3274848850cc2274a69b6b21fec58071486cdd2d2757361b8597165b65a10",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33384
+  },
+  {
+    "file": "jackets/chronophobia.jpg",
+    "sourceBundle": "4d14fb2279567a72ecdd77ade6ecf6b2.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/chronophobia.mat",
+    "sourceSHA256": "31b05e0171c01f6760a5d11f5f02a20d09104677c827dfe2054d18295b0a2f72",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 40527
+  },
+  {
+    "file": "jackets/codeleviathan.jpg",
+    "sourceBundle": "7884bfee30d1e47e0e72312eb8aebbf6.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/codeleviathan.mat",
+    "sourceSHA256": "21ec88ff2d66de38044e57755beb3a2eadfd03f62b2acfe5246ba662ad077be3",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33490
+  },
+  {
+    "file": "jackets/coldsea.jpg",
+    "sourceBundle": "ba198139e7f7135e08d9112833a444a6.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/coldsea.mat",
+    "sourceSHA256": "5f095bcf7cbd9227cab0034cfc815b01ad0b33c3f4818d22fe0e80223e764534",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 27749
+  },
+  {
+    "file": "jackets/cryogenic.jpg",
+    "sourceBundle": "dc470eefc095524592965dc599dc3da8.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/cryogenic.mat",
+    "sourceSHA256": "243825c01092f10e04f2b61d8853a6fb21dd6c20b1c941ce9986284a9a8d4b56",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 36563
+  },
+  {
+    "file": "jackets/cyaegha.jpg",
+    "sourceBundle": "174678698943e719aee2eadac9f7ff48.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/cyaegha.mat",
+    "sourceSHA256": "d7affde99d4ea565402c9dc49859d61e7bbbb071768e46ffe9e74e6eb6c4e329",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33505
+  },
+  {
+    "file": "jackets/destroyer.jpg",
+    "sourceBundle": "4a0482c891d53fc8c444a1111fd44e0a.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/destroyer.mat",
+    "sourceSHA256": "9feb1f7d645e37665f27349917881abb75e43b214b0ab09e1c1fc5741eb83141",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 9126
+  },
+  {
+    "file": "jackets/enigma.jpg",
+    "sourceBundle": "bdff15638161ef87e3c0173387e2d7a8.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/enigma.mat",
+    "sourceSHA256": "9e0a8b59d66c17b6aa6e9d1e806e807bbcb2d496d19499bdd7f015e07249caa5",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 37384
+  },
+  {
+    "file": "jackets/everything.jpg",
+    "sourceBundle": "9cf2072bd45c7aae43a2fba2a832b188.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/everything.mat",
+    "sourceSHA256": "cf29b72de04acf9bb04807e33c01f8794daa92a6bebdb056a0792709cd56b9a3",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31181
+  },
+  {
+    "file": "jackets/exceedmind.jpg",
+    "sourceBundle": "4754f08c145f3e59f30855df5f000c9f.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/exceedmind.mat",
+    "sourceSHA256": "6dc531b106eab421e9e63b5030e28630bb4b31459fa2b3fc8c98fab7a799cb36",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33588
+  },
+  {
+    "file": "jackets/fallingshadow.jpg",
+    "sourceBundle": "566511939932c367b651f8cf60f74d20.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/fallingshadow.mat",
+    "sourceSHA256": "ea374aa3d09b003791a4157dced5519a0c26bc881467afb0ab582fbe66e27356",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 28528
+  },
+  {
+    "file": "jackets/falsequre.jpg",
+    "sourceBundle": "5361e9c8f28dc63d67c70857e4cf94a7.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/falsequre.mat",
+    "sourceSHA256": "425ed797d3245d865296c6d89e859a27720d645529bdd326a19d8781b141e99d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 29682
+  },
+  {
+    "file": "jackets/ffff.jpg",
+    "sourceBundle": "1549094f1caa36221c61fe20bb1d11fe.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/ffff.mat",
+    "sourceSHA256": "328bd9197e6a9621f46f25a9c42b9fc43104ad40766ba8e4c6fef78739babae0",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 25849
+  },
+  {
+    "file": "jackets/fochaos.jpg",
+    "sourceBundle": "92ab47dc7ee606d44d4af4e768e752bb.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/fochaos.mat",
+    "sourceSHA256": "0b2d1ee31b1ce96480c00d9d951b3bf2e3dcf6ea6ea291f084c05ae1bf4ddd37",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 23990
+  },
+  {
+    "file": "jackets/greyscalecity.jpg",
+    "sourceBundle": "a32ca8eb3a77867cb19aed7d95b96c05.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/greyscalecity.mat",
+    "sourceSHA256": "19855b8e29237eaf691dd56b9bcd48a83d01437065ca2636e4aea52e5dd2f959",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 28090
+  },
+  {
+    "file": "jackets/hanabi.jpg",
+    "sourceBundle": "2298da3b26bfa4289e9b2dcefef925c7.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/hanabi.mat",
+    "sourceSHA256": "32f3d04e196bc84096f281d22a577d5b73529f4a49f3bed6267a90a0a3df08d3",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33302
+  },
+  {
+    "file": "jackets/hyalouyne.jpg",
+    "sourceBundle": "ae1b4819474bbae3ae08ab6cabdd7aa7.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/hyalouyne.mat",
+    "sourceSHA256": "7c1656dac5c841aa1699a1a60ebbd5889b37dedb26a5bd4105bacdc5f3a3cbdb",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 35235
+  },
+  {
+    "file": "jackets/init.jpg",
+    "sourceBundle": "b1fa41578e18f69b3481fd402c58708e.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/init.mat",
+    "sourceSHA256": "e55e845c43ea1f3e4dac8e0857cfcf44b80cb0ca145b0569b6d7730f10a0483c",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 26203
+  },
+  {
+    "file": "jackets/kirapico.jpg",
+    "sourceBundle": "2c8e50ff75241bf0c1d45ad71d7824b1.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/kirapico.mat",
+    "sourceSHA256": "40d8aabc46fb32187bdbeba2bf5d219acf52be316ec2e09217348e2c475ebd8a",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 42468
+  },
+  {
+    "file": "jackets/kiretsu.jpg",
+    "sourceBundle": "69859bfe829017757cb3a0fd2e67410c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/kiretsu.mat",
+    "sourceSHA256": "ef64eacc6f656a543ba08d875b2ce0179f9ecbd7ac02dc3ba8ab672e813da0d2",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 37596
+  },
+  {
+    "file": "jackets/latentduality.jpg",
+    "sourceBundle": "ceabd66f981c95353f4699d4ed2b04d7.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/latentduality.mat",
+    "sourceSHA256": "61ac2f74ed0bdea995dc026e542365565ab8621ba84b9a316bb1f5df19955f8d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 41814
+  },
+  {
+    "file": "jackets/lfdy.jpg",
+    "sourceBundle": "5ef818ecda5100463ffc6007e9985118.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/lfdy.mat",
+    "sourceSHA256": "1525cd81eacaeb3ee277c58467d24f7a3ee7600ae7d7f8549b61b718a37c0397",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31197
+  },
+  {
+    "file": "jackets/lightsout.jpg",
+    "sourceBundle": "967935d625a2c1105044d47d4dc5d265.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/lightsout.mat",
+    "sourceSHA256": "afd4609f17491e32536559aaf97147666d3be84fe35c77b13358b5307407b0f2",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 32694
+  },
+  {
+    "file": "jackets/memoire.jpg",
+    "sourceBundle": "f07a78c1898687e919d1b0d83f10d667.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/memoire.mat",
+    "sourceSHA256": "f64de258140d72a7b7a4a7bee99d98a4ad71e27571bd441381aebfacfd008dfd",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 43262
+  },
+  {
+    "file": "jackets/minerva.jpg",
+    "sourceBundle": "6ea61ad00fdb802bd4195625e887d711.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/minerva.mat",
+    "sourceSHA256": "114c1346fcc810f2087434cb5771e65881a8e1d0b9a82da6bf4588abfcbaeb35",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31761
+  },
+  {
+    "file": "jackets/mirinae.jpg",
+    "sourceBundle": "1d6415482618f47ee21193d09569ea2b.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/mirinae.mat",
+    "sourceSHA256": "3adcfa2fdd2e96d814fc708ae9a42f14fffc6c39294c75035c41f224140342d0",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 28389
+  },
+  {
+    "file": "jackets/moondiver.jpg",
+    "sourceBundle": "1fa2b7c2a100f3c11c738395d606ccb6.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/moondiver.mat",
+    "sourceSHA256": "59c8e9c2160b1a707d07d7412b6882d44691ba612c75293c22e4d4c46fac290b",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 21880
+  },
+  {
+    "file": "jackets/moonsliders.jpg",
+    "sourceBundle": "d235a2cee5f00a63eebf421de7a0b111.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/moonsliders.mat",
+    "sourceSHA256": "50bc3a96d19379f713397505a9d151ef6aaac8c02135ba0be2a0b8242269da5f",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 36676
+  },
+  {
+    "file": "jackets/mydeadlysins.jpg",
+    "sourceBundle": "f4a5b5d48c33aeb78e255bf22c8bb189.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/mydeadlysins.mat",
+    "sourceSHA256": "f13837ccdaa6536103289b12947a17e23f12c205ffaa502bad3c4d45ce2fa00f",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 28454
+  },
+  {
+    "file": "jackets/newvision.jpg",
+    "sourceBundle": "4b83d29649724bbe0b44cd0d1af0ef31.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/newvision.mat",
+    "sourceSHA256": "ee3ff918cdb35a1bd89ec9398c25ac4d6a34940eed5fa6fa9ee7355fdcbeea4a",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 30665
+  },
+  {
+    "file": "jackets/noctidea.jpg",
+    "sourceBundle": "f144676005f9770c90f7b022959c9e08.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/noctidea.mat",
+    "sourceSHA256": "ef2b9c155afda26da6aacef81f57fcabb1461097a78852e52dd2f852527c4f94",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 39509
+  },
+  {
+    "file": "jackets/nowiknow.jpg",
+    "sourceBundle": "e80bac6d646dda319ffbe5bf86d84e04.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/nowiknow.mat",
+    "sourceSHA256": "c51f83995359832bd986fa9435a96a261ff5b770666b27565411fb1f86556879",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33113
+  },
+  {
+    "file": "jackets/outerjustice.jpg",
+    "sourceBundle": "60b071259e2a4432bddc555e1c053ca3.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/outerjustice.mat",
+    "sourceSHA256": "1b0a3f6183d5fd05d0a92c54e6149f2fdba2f2a43bb1c8a12c0d27142ee76275",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 18214
+  },
+  {
+    "file": "jackets/papillonblanc.jpg",
+    "sourceBundle": "bba742f0d2dc400dd0e5513a3ee3e8c1.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/papillonblanc.mat",
+    "sourceSHA256": "3f69c81574b20f194c182ecc1b7903d1d53c803e17ba9debf4a5ac4188728e5b",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31249
+  },
+  {
+    "file": "jackets/phylaxron.jpg",
+    "sourceBundle": "671aeea7b3c34abd351a33a9c6bb821c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/phylaxron.mat",
+    "sourceSHA256": "d06c1e4da0d2d2f3585f1cc95ef0a5302024fefb680479e0a553939bd397a393",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 40913
+  },
+  {
+    "file": "jackets/primevaltexture.jpg",
+    "sourceBundle": "2d898ae9e3b49a69cb9a6d3f214906f0.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/primevaltexture.mat",
+    "sourceSHA256": "16ad18ac87c5a6b6b253f8fd820d0f37ab3cd72a3cbbf5fa3cbded93a2b6965a",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 30548
+  },
+  {
+    "file": "jackets/reconnect.jpg",
+    "sourceBundle": "3e7c89dfd3b3f78b74726d437399abc9.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/reconnect.mat",
+    "sourceSHA256": "1aebff46658e39a7d225106e991fb40fb0d95fcd639191b1377ef7ae0887f324",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 37262
+  },
+  {
+    "file": "jackets/reflection.jpg",
+    "sourceBundle": "216a7f7b53750e47178373eca168c3f2.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/reflection.mat",
+    "sourceSHA256": "3125f5f44702d15fdc4f31a6b55122ef95e57374db1c3c4766d5350ba9e7baea",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31309
+  },
+  {
+    "file": "jackets/scarletespada.jpg",
+    "sourceBundle": "8a9e09dfa8e72ebae81af1b81938a3f2.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/scarletespada.mat",
+    "sourceSHA256": "aa8ff41137bddb3a73a3cdb134bb05fae0398b793eb7cb377a4ffe446c72bd4e",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 35166
+  },
+  {
+    "file": "jackets/selfconfrontation.jpg",
+    "sourceBundle": "a4691f7ae02516885794a0026bc29973.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/selfconfrontation.mat",
+    "sourceSHA256": "46f1dea84a8f974fe0f352ff5fb5b659330c9dd6e25b09853e749d7e614bdc49",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 25965
+  },
+  {
+    "file": "jackets/shadowsofunknown.jpg",
+    "sourceBundle": "e7055965fa7001496c1563124dba3e21.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/shadowsofunknown.mat",
+    "sourceSHA256": "fc81016d9393a98488e3a2d5738eb52c67e2d8e7a465e61b543c5b51e2376ab4",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 25682
+  },
+  {
+    "file": "jackets/shouldhavebeen.jpg",
+    "sourceBundle": "06c3e00ddc5511c490288eb0df1c6a7c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/shouldhavebeen.mat",
+    "sourceSHA256": "f18d0184da5a4528e53bdfc894a2f94cac13707a7ad554be7c4361913e5dbc0d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 32479
+  },
+  {
+    "file": "jackets/sinutopia.jpg",
+    "sourceBundle": "d74894a85b9e8b25b772ba489380e50e.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/sinutopia.mat",
+    "sourceSHA256": "bab13d1686ae44ef938af3514cfa665b633b210d21c7910915858cff6ecbed96",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 41340
+  },
+  {
+    "file": "jackets/sunanokioku.jpg",
+    "sourceBundle": "7297cb743bfbe61f2edec1ff2c7a56de.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/sunanokioku.mat",
+    "sourceSHA256": "5edf9a963d496ce11ca2587cf34b8f1676a303c25f4a8182fe8338f6e161f00d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 27501
+  },
+  {
+    "file": "jackets/tactom.jpg",
+    "sourceBundle": "9409f2ffdf55c84c5da84ac9905c0c9d.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/tactom.mat",
+    "sourceSHA256": "692309f2c40e50089e499e20aed4ea7045fe2cb626d2166db5c867f67aec88cb",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 31801
+  },
+  {
+    "file": "jackets/thingsitreasure.jpg",
+    "sourceBundle": "a7e91437effa7b19baa4a377659b8697.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/thingsitreasure.mat",
+    "sourceSHA256": "aadb51c55e3ff12acfc599f6135d24344356d8101e57abdabede634dde91a88c",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 40028
+  },
+  {
+    "file": "jackets/toccatafunebre.jpg",
+    "sourceBundle": "884deea168dd34f974be18ca8a37fc71.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/toccatafunebre.mat",
+    "sourceSHA256": "bd0dd2da3eb2ba647b590d7c8b2f8d8edde83db9a1ea255bf53af737dd411716",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 26174
+  },
+  {
+    "file": "jackets/tokonagi.jpg",
+    "sourceBundle": "ca641a8f062e46bb026626d22a3ba7bd.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/tokonagi.mat",
+    "sourceSHA256": "7f021c4a22c66b27b4386d4485b0ceeb3ea00d880c1b6c392d826c8b20cc5a99",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 29766
+  },
+  {
+    "file": "jackets/trajectoryofhope.jpg",
+    "sourceBundle": "55dd5cdb22cce36c80559346452ee92b.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/trajectoryofhope.mat",
+    "sourceSHA256": "981a3dd2174194420531cc02302d8ee185ca306f9a7cf48acc4eaa4fe1ff7821",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 25661
+  },
+  {
+    "file": "jackets/transparency.jpg",
+    "sourceBundle": "376ba756f7f3b556ed40422117b9787c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/transparency.mat",
+    "sourceSHA256": "c50dd31014f5118974b26589a463ea4caddc6d0799ea9fee3b827f4b22cd88a4",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 30685
+  },
+  {
+    "file": "jackets/vesper.jpg",
+    "sourceBundle": "c531cc355e90064536ca827ab63838b1.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/vesper.mat",
+    "sourceSHA256": "ceee00be4c006721b8012c0b10bed86dda828da8bf8cd7fb1ea6d16b8dea84ee",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 23261
+  },
+  {
+    "file": "jackets/withtruth.jpg",
+    "sourceBundle": "7e6835b1568cb473fa31e2a2a2aaf4ea.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/withtruth.mat",
+    "sourceSHA256": "5f2f3790a50d57268269466bcf5852ef64c4c8b034fbca3272e11f60d305b223",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 25775
+  },
+  {
+    "file": "jackets/worldender.jpg",
+    "sourceBundle": "b905eb52a85b4b39569a881260dc8e9e.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/worldender.mat",
+    "sourceSHA256": "103b25b11da77b487474853188146de3ded97dd77aa95210f53187cf95fe8769",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 27609
+  },
+  {
+    "file": "jackets/yggthrasir.jpg",
+    "sourceBundle": "a18f7b6042f967c5c85f6d794dace847.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/yggthrasir.mat",
+    "sourceSHA256": "dc41781241d4af1a681cb2e4b78db811728c8f6ef0778eb8d424f01f5d96c190",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 26770
+  },
+  {
+    "file": "jackets/zetta.jpg",
+    "sourceBundle": "f4d313974ca90c179557f93ecdafcf2b.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/zetta.mat",
+    "sourceSHA256": "e45bb84d2b8e034bfc408fa66d7b7cfe8b81b1cdeee686a54e57a1a753e16ae4",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 36316
+  },
+  {
+    "file": "jackets/zfc.jpg",
+    "sourceBundle": "7b21906a5089b9fd7dc9382a8de6e1bf.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/zfc.mat",
+    "sourceSHA256": "ffcba040ead8990ac1b49de99cd06ef84f8ee40c893ed1db31b6e9353fca739d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 33917
+  },
+  {
+    "file": "jackets/forbiddensouls.jpg",
+    "sourceBundle": "19ec3f7c19418563f00f52e6d10a1d42.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/forbiddensouls.mat",
+    "sourceSHA256": "b0cd548afb3fb03c7a8d8a84d08cc3fc7b750e61120f639e7e26a06d78615310",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 22396
+  },
+  {
+    "file": "jackets/ghostray.jpg",
+    "sourceBundle": "b71c97f335d616da104b253d3a26a73c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/ghostray.mat",
+    "sourceSHA256": "e359e0730eec56cfa647a8478134b0053f11f40b8310bfa3fe1803c5376620d9",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 20517
+  },
+  {
+    "file": "jackets/wonderroom.jpg",
+    "sourceBundle": "8ae0ad33a6d6041f8e97a4cc806b79b6.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/wonderroom.mat",
+    "sourceSHA256": "6ad471b4fe92bf3e55e58443c97b8aa41c1f144fedd8c630bef98496b7b5136e",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 36101
+  },
+  {
+    "file": "jackets/deepintothevibe.jpg",
+    "sourceBundle": "b08b6bd84b4d9c436f92e47b292543d5.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/deepintothevibe.mat",
+    "sourceSHA256": "42a0c91b49b2115ff08fff443572c259d077e006f1578bb805fa2bf8d52ca2cb",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 21455
+  },
+  {
+    "file": "jackets/cylin.jpg",
+    "sourceBundle": "3ecae40b1041f9cef5982c76e23a6ec4.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/cylin.mat",
+    "sourceSHA256": "4840593788a19c4b4d74c8167ca3a311b74f6d67c582eed2d42e9fc2b495076d",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 23599
+  },
+  {
+    "file": "jackets/ordirehv.jpg",
+    "sourceBundle": "f8b82d331f20ad9b6edd7a7ae960abfd.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/ordirehv.mat",
+    "sourceSHA256": "37c7f09448b1218375d8d0779c9ac1f3e9b9164f093ea18ed1c3ad36c7ebeec2",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 22791
+  },
+  {
+    "file": "jackets/rainshower.jpg",
+    "sourceBundle": "50d8b7fb64894ea42a4fc22876e5e139.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/rainshower.mat",
+    "sourceSHA256": "6ad0dc39b3ed0387a492bbdb2ee62fbe7ec2f09671256b4cf9c2a640c46cb1d4",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 43207
+  },
+  {
+    "file": "jackets/albedo.jpg",
+    "sourceBundle": "ee4f3ae344cd4d1f2bd731e85dfb472d.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/albedo.mat",
+    "sourceSHA256": "50733ab2bd7367bbaa4152f1b6966cfeef022bd3b34d92dcd6e4aaf29d32700c",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 26784
+  },
+  {
+    "file": "jackets/neonvision.jpg",
+    "sourceBundle": "b33a79df01f5437eb09f08afbc89971c.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/neonvision.mat",
+    "sourceSHA256": "6f1d048118304e95a4e8701c72fd472a76a69fbc7d2270df946271878fa61544",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 29863
+  },
+  {
+    "file": "jackets/kuukaku.jpg",
+    "sourceBundle": "b1c85f02571aee20ee89114cfbab3774.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/if-gamedata/songs/kuukaku.mat",
+    "sourceSHA256": "7a39321e963bd57b54d8b8de622498460b4fad50122f348d334e33d59670e2ae",
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "size": [
+      216,
+      216
+    ],
+    "bytes": 38022
+  },
+  {
+    "file": "backgrounds/seiko_amphitheatre_clip.jpg",
+    "sourceBundle": "53b8c92e97b60d622e5178823e79472b.bundle",
+    "sourceAsset": "Assets/BuildSpecificAssets/release/sp-story/assets/bg/seiko_amphitheatre_clip.png",
+    "sourceSHA256": "015b5ed89fc3adb6011195ad4f334303c09dec9087f48db9b6374e725bd71a4b",
+    "originalSize": [
+      4096,
+      2048
+    ],
+    "size": [
+      1920,
+      960
+    ],
+    "bytes": 230915
+  },
+  {
+    "file": "avatars/story.png",
+    "sourceBundle": "755014a2141ec96aa788d1047dda5a5a.bundle",
+    "sourceAsset": "characterimage-Story",
+    "sourceSHA256": "8314507fc2ad7c23d59c93b2d265d0c609f339c04d23200854df7c7be7d9a6c8",
+    "originalSize": [
+      256,
+      256
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "bytes": 43599
+  },
+  {
+    "file": "avatars/nia.png",
+    "sourceBundle": "518052befd4f89d049553d24bc7bdad2.bundle",
+    "sourceAsset": "characterimage-Nia",
+    "sourceSHA256": "bade643a93fb21771bb618ae514e96e4d39a5d1d0ea3eeec0a2912446ab2a89a",
+    "originalSize": [
+      256,
+      256
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "bytes": 44647
+  },
+  {
+    "file": "avatars/mei.png",
+    "sourceBundle": "22b589e899a51655307df4ebb93d2a1a.bundle",
+    "sourceAsset": "characterimage-Mei",
+    "sourceSHA256": "dafc42866ca1c58a2682285df96bf9d699b02565081713f68969c1546bbc520d",
+    "originalSize": [
+      256,
+      256
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "bytes": 47208
+  },
+  {
+    "file": "avatars/iris.png",
+    "sourceBundle": "30f5e74c96b5bca0195b9fb63e7a73e9.bundle",
+    "sourceAsset": "characterimage-Iris",
+    "sourceSHA256": "7b90be9a69d54ba916716b90f1f701b7d843b6944ef357c6883e6752fc31fb4a",
+    "originalSize": [
+      256,
+      256
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "bytes": 48701
+  },
+  {
+    "file": "avatars/ayame.png",
+    "sourceBundle": "9632393a0ccf80d6fff9148749b61eae.bundle",
+    "sourceAsset": "characterimage-Ayame",
+    "sourceSHA256": "5c1f14cbaa3c26baaa83336759a73da33590b8579eeeb2ec2bf86546b9f16f47",
+    "originalSize": [
+      256,
+      256
+    ],
+    "size": [
+      256,
+      256
+    ],
+    "bytes": 49763
+  },
+  {
+    "file": "logo.png",
+    "sourceBundle": "594c110712a1e65229c4631663ecf25c.bundle",
+    "sourceAsset": "logo-if-centered-shadow",
+    "sourceSHA256": "e77d0b0ed7eee7f4bd9ef310e74cbf1fa4e3918fe3134ac482f6cc54c18f0f59",
+    "size": [
+      300,
+      71
+    ],
+    "bytes": 38447
+  }
+]

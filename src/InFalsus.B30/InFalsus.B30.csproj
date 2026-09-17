@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><PackageId>InFalsus.B30</PackageId><Version>1.0.0</Version><Authors>InFalsus B30 Contributors</Authors><Description>Unofficial In Falsus B30 calculation and PNG rendering from chart scores. Bundled assets, localized chart titles and custom constants.</Description><PackageReadmeFile>README.md</PackageReadmeFile><GenerateDocumentationFile>true</GenerateDocumentationFile><NoWarn>$(NoWarn);1591</NoWarn></PropertyGroup>
+<ItemGroup><PackageReference Include="SkiaSharp" Version="4.152.0"/><PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="4.152.0"/></ItemGroup>
+<ItemGroup><EmbeddedResource Include="Assets/**/*" LogicalName="Assets/%(RecursiveDir)%(Filename)%(Extension)"/><None Include="../../README.md" Pack="true" PackagePath="/"/><None Include="../../THIRD-PARTY-NOTICES.md" Pack="true" PackagePath="/"/></ItemGroup>
+</Project>

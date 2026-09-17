@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+packages/
+test-output/
+*.png
+__pycache__/
+*.sav
+!src/InFalsus.B30/Assets/**/*.png
