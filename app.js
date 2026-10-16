@@ -22,6 +22,15 @@ const catalog=await fetch('./assets/catalog.json').then(r=>{if(!r.ok)throw Error
 const levels=[...new Set(catalog.songs.flatMap(s=>s.charts.map(c=>c.level)))].sort((a,b)=>a-b);
 for(const id of ['minLevel','maxLevel'])for(const lv of levels){const op=document.createElement('option');op.value=lv;op.textContent=lv;$(id).append(op);}
 $('maxLevel').value=levels.at(-1);
+// Keep the native file picker in this user gesture; clipboard failure must not block it.
+$('save').addEventListener('click',()=>{
+ const path=String.raw`%USERPROFILE%\AppData\LocalLow\lowiro\infalsus`;
+ const hint=$('pathCopyHint');
+ if(!navigator.clipboard?.writeText){hint.textContent='无法自动复制，请复制页面下方的存档目录。';return;}
+ navigator.clipboard.writeText(path).then(()=>{
+  hint.textContent='存档目录已复制。在文件窗口按 Ctrl+L → Ctrl+V → 回车。';
+ }).catch(()=>{hint.textContent='未能复制目录，请复制页面下方的存档目录。';});
+});
 $('save').onchange=()=>task(async()=>{
  hasSave=false;clearResults();$('resultInfo').textContent='生成后可下载 PNG';
  const file=$('save').files[0];if(!file)return;
