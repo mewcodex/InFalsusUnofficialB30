@@ -181,6 +181,9 @@ def parse_save(data):
     # Highest-score aggregate fields may come from different plays. Prefer the
     # actual matching run, never simply the latest play or combined counters.
     runs={}
+    rows.history=[]
+    rows.history_warning=bool(rows.profile_warning)
+    known_names={row['song_id']:row['base_name'] for row in rows}
     for index, result in enumerate(history):
         sid,diff=struct.unpack_from('<HB',result)
         score=struct.unpack_from('<Q',result,80)[0]
@@ -190,7 +193,17 @@ def parse_save(data):
                 mapping,start,length=entry
                 if start<=index<start+length:mapped=mapping.get(sid)
         key=(mapped if mapped is not None else sid,diff,score)
-        runs[key]=judgement_counts(result)
+        counts=judgement_counts(result)
+        runs[key]=counts
+        name=mapped if mapped is not None else known_names.get(sid)
+        lamp,clear=struct.unpack_from('<BB',result,3)
+        if name is None or diff not in DIFFS or lamp>2 or clear>4 or score>100_500_000:
+            rows.history_warning=True
+            continue
+        rows.history.append(dict(base_name=name,song_id=sid,difficulty=diff,score=score,
+            lamp=lamp,clear=clear,dive=struct.unpack_from('<h',result,8)[0],
+            timestamp=struct.unpack_from('<Q',result,88)[0],history_index=index,
+            judgements=counts,judgement_source='history'))
     for row in rows:
         key=(row['base_name'],row['difficulty'],row['score'])
         numeric=(row['song_id'],row['difficulty'],row['score'])
@@ -418,6 +431,53 @@ def filter_scores(ranked, difficulties=None, min_level=None, max_level=None):
         key=lambda r: (-r['level'], -r['score'], r['base_name'], r['difficulty']))
 
 
+def recent_top10(pool):
+    best={}
+    for run in pool:
+        key=(run['base_name'],run['difficulty'])
+        if key not in best or (run['rating'],run['score'])>(best[key]['rating'],best[key]['score']):
+            best[key]=run
+    return sorted(best.values(),key=lambda r:(-r['rating'],-r['score'],r['base_name'],r['difficulty']))[:10]
+
+
+def recent_rating(records,catalog,constants=None):
+    """Reconstruct the requested legacy Recent 30 pool from saved chronological runs.
+
+    See https://arcaea.lost-msth.cn/Arcaea-Server/mechanism/potential.html
+    Protection: replace the lowest strictly weaker eligible entry, oldest on ties.
+    Ordinary plays evict oldest, preserving ten distinct charts where possible.
+    """
+    history=getattr(records,'history',[])
+    if not history: raise InputError('存档没有可用的游玩历史，无法重建 R10；请关闭 R10 后生成。')
+    charts={(s['base_name'],c['difficulty']):(s,c) for s in catalog['songs'] for c in s['charts']}
+    pool=[]; highs={}; skipped=0; used=0
+    for run in sorted(history,key=lambda r:(r['timestamp'],r['history_index'])):
+        key=(run['base_name'],run['difficulty'])
+        if key not in charts:
+            skipped+=1;continue
+        song,chart=charts[key]
+        constant=constants[key] if constants is not None else chart['constant']
+        item=dict(run,title=song['title'],jacket=song['jacket'],level=chart['level'],
+                  constant=constant,rating=play_rating(constant,run['score']))
+        protected=(key not in highs or run['score']>highs[key] or run['score']>=98_000_000
+                   or run['clear']==1 or run['lamp']==1)
+        highs[key]=max(highs.get(key,0),run['score']);used+=1
+        if len(pool)<30: pool.append(item);continue
+        expanded=pool+[item]
+        keys=[(r['base_name'],r['difficulty']) for r in expanded]
+        distinct=len(set(keys)); minimum=min(10,distinct)
+        eligible=[i for i,k in enumerate(keys[:-1]) if distinct-(keys.count(k)==1)>=minimum]
+        if protected:
+            eligible=[i for i in eligible if pool[i]['rating']<item['rating']]
+            if not eligible: continue
+            drop=min(eligible,key=lambda i:(pool[i]['rating'],i))
+        else:
+            drop=eligible[0]
+        pool=expanded[:drop]+expanded[drop+1:]
+    if not used:raise InputError('游玩历史中没有受支持的谱面，无法重建 R10。')
+    return recent_top10(pool),dict(used=used,skipped=skipped,warning=getattr(records,'history_warning',False))
+
+
 def score_progress(selected, catalog, difficulties, min_level, max_level):
     total=sum(1 for song in catalog['songs'] for c in song['charts']
               if c['difficulty'] in difficulties and min_level <= c['level'] <= max_level)
@@ -457,10 +517,12 @@ def export_images(ranked,catalog,output,name,character,score_mode=False,difficul
     return paths
 
 
-def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, page_label='', filter_label=''):
+def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, page_label='', filter_label='', recent=None):
+    if score_page is not None: recent=None
     W,H=EXPORT_SIZE
     footer_y=2150 if score_page is None else max(y for x,y in score_page['positions'])+222
     if score_page is not None: W=3555; H=round((footer_y+150)*1.5)
+    if recent is not None: footer_y=2972; H=4683
     scale=1.5
     right=W/scale-56
     def pixel(n):return round(n*scale)
@@ -486,15 +548,21 @@ def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, pag
     d.text((263,name_top+name_height+header_gap+6),('SCORE RECORDS' if score_page is not None else 'PLAYER BESTS'),font=font(22,family='heading'),fill='#a7c4ce',anchor='lt')
     if score_page is None:
         d.text((right,70),'UNOFFICIAL POTENTIAL',font=font(24,family='heading'),fill='#9fdacb',anchor='ra')
-        d.text((right,103),f'{b30_value(ranked):.4f}',font=font(80,True,numeric=True),fill='white',anchor='ra')
+        d.text((right,103),f'{((sum(r["rating"] for r in ranked[:30])+sum(r["rating"] for r in recent))/40) if recent is not None else b30_value(ranked):.4f}',font=font(80,True,numeric=True),fill='white',anchor='ra')
     else:
         ex,ex_plus,total=score_page.get('progress',(0,0,len(ranked)))
         d.text((right,70),f'EX   {ex}/{total}',font=font(42,numeric=True),fill='#d7bcff',anchor='ra')
         d.text((right,132),f'EX+   {ex_plus}/{total}',font=font(42,numeric=True),fill='#ffbddc',anchor='ra')
         d.text((right,222),filter_label,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
+    if recent is not None:
+        d.text((right,222),f'B30 {b30_value(ranked):.4f}  /  R10 {sum(r["rating"] for r in recent)/10:.4f}',font=font(20,numeric=True),fill='#becdd6',anchor='ra')
     d.line((56,262,right,262),fill='#91bfbf',width=2)
     y0=292;cw=548;gap=22;step=182
     positions=score_page['positions'] if score_page is not None else [(56+(i%3)*(cw+gap),y0+(i//3)*step) for i in range(30)]
+    displayed=ranked
+    if recent is not None:
+        displayed=ranked[:30]+[None]*max(0,30-len(ranked))+recent[:10]+[None]*max(0,10-len(recent))
+        positions+=[(56+(i%3)*570,2204+(i//3)*182) for i in range(10)]
     # Composite one reusable card panel rather than a second full-length canvas.
     panel=Image.new('RGBA',(pixel(cw+2),pixel(176)),(0,0,0,0))
     pd=ScaledDraw(panel)
@@ -507,14 +575,18 @@ def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, pag
         for hy,level in score_page['headings']:
             d.text((56,hy+5),f'LEVEL {level}',font=font(28,True,numeric=True),fill='#b4e2d7')
             d.line((240,hy+25,right,hy+25),fill='#688b94',width=1)
+    if recent is not None:
+        d.text((56,2155),'RECENT 10',font=font(28,True,numeric=True),fill='#b4e2d7')
+        d.line((290,2175,right,2175),fill='#688b94',width=1)
     for i,(x,y) in enumerate(positions):
-        if i>=len(ranked):
-            d.text((x+cw-17,y+155),f'#{i+1:02}',font=font(17,True,numeric=True),fill='#778b99',anchor='rb')
+        number=i+1 if recent is None or i<30 else i-29
+        if i>=len(displayed) or displayed[i] is None:
+            d.text((x+cw-17,y+155),f'#{number:02}',font=font(17,True,numeric=True),fill='#778b99',anchor='rb')
             d.text((x+183,y+70),'NO RECORD',font=font(23),fill='#778b99');continue
-        r=ranked[i];diff,color=DIFFS[r['difficulty']]
+        r=displayed[i];diff,color=DIFFS[r['difficulty']]
         jacket=ImageOps.fit(Image.open(ASSETS/r['jacket']).convert('RGB'),(pixel(144),pixel(144)),method=Image.Resampling.LANCZOS)
         im.paste(jacket,(pixel(x+12),pixel(y+13)))
-        d.text((x+cw-17,y+155),f'#{i+1:02}',font=font(17,True,numeric=True),fill='#a9bcc8',anchor='rb')
+        d.text((x+cw-17,y+155),f'#{number:02}',font=font(17,True,numeric=True),fill='#a9bcc8',anchor='rb')
         tx=x+174;maxw=cw-190
         d.text((tx,y+16),f'{diff}  {r["constant"]:.1f}',font=font(18,True,numeric=True),fill=color)
         d.text((x+cw-17,y+12),f'{r["rating"]:.4f}',font=font(26,True,numeric=True),fill=color,anchor='ra')
