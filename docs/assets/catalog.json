@@ -1,0 +1,2788 @@
+{
+  "version": 1,
+  "songs": [
+    {
+      "id": 2,
+      "base_name": "alamode",
+      "title": "à la mode",
+      "artist": "aran",
+      "jacket": "jackets/alamode.jpg",
+      "charts": [
+        {
+          "id": "alamode0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "alamode1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "alamode2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "alamode3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "base_name": "alterededge",
+      "title": "Altered Edge",
+      "artist": "satella",
+      "jacket": "jackets/alterededge.jpg",
+      "charts": [
+        {
+          "id": "alterededge0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "alterededge1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "alterededge2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "alterededge3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "base_name": "bethere",
+      "title": "Be There",
+      "artist": "PSYQUI",
+      "jacket": "jackets/bethere.jpg",
+      "charts": [
+        {
+          "id": "bethere0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "bethere1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "bethere2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "bethere3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "base_name": "chaoticismlegacy",
+      "title": "Chaoticism Legacy",
+      "artist": "Nothing But Requiem",
+      "jacket": "jackets/chaoticismlegacy.jpg",
+      "charts": [
+        {
+          "id": "chaoticismlegacy0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "chaoticismlegacy1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "chaoticismlegacy2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "chaoticismlegacy3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "base_name": "chronomia",
+      "title": "Chronomia",
+      "artist": "Lime",
+      "jacket": "jackets/chronomia.jpg",
+      "charts": [
+        {
+          "id": "chronomia0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "chronomia1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "chronomia2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "chronomia3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "base_name": "chronophobia",
+      "title": "Chronophobia",
+      "artist": "xi vs かねこちはる",
+      "jacket": "jackets/chronophobia.jpg",
+      "charts": [
+        {
+          "id": "chronophobia0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "chronophobia1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "chronophobia2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "chronophobia3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 14,
+          "constant": 14.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "base_name": "codeleviathan",
+      "title": "code:Leviathan",
+      "artist": "kanone",
+      "jacket": "jackets/codeleviathan.jpg",
+      "charts": [
+        {
+          "id": "codeleviathan0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "codeleviathan1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "codeleviathan2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "codeleviathan3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 14,
+          "constant": 14.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "base_name": "coldsea",
+      "title": "Cold Sea",
+      "artist": "Sakuzyo",
+      "jacket": "jackets/coldsea.jpg",
+      "charts": [
+        {
+          "id": "coldsea0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "coldsea1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "coldsea2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "coldsea3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "base_name": "cryogenic",
+      "title": "Cryogenic",
+      "artist": "Camellia ft. Petra Gurin",
+      "jacket": "jackets/cryogenic.jpg",
+      "charts": [
+        {
+          "id": "cryogenic0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "cryogenic1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "cryogenic2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "cryogenic3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "base_name": "cyaegha",
+      "title": "Cyaegha",
+      "artist": "USAO",
+      "jacket": "jackets/cyaegha.jpg",
+      "charts": [
+        {
+          "id": "cyaegha0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "cyaegha1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "cyaegha2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "cyaegha3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "base_name": "destroyer",
+      "title": "Destr0yer",
+      "artist": "Sakuzyo feat. Nikki Simmons",
+      "jacket": "jackets/destroyer.jpg",
+      "charts": [
+        {
+          "id": "destroyer0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "destroyer1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "destroyer2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "destroyer3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "base_name": "enigma",
+      "title": "Enigma",
+      "artist": "sanmal",
+      "jacket": "jackets/enigma.jpg",
+      "charts": [
+        {
+          "id": "enigma0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "enigma1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "enigma2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "enigma3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "base_name": "everything",
+      "title": "Everything",
+      "artist": "Avans",
+      "jacket": "jackets/everything.jpg",
+      "charts": [
+        {
+          "id": "everything0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "everything1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "everything2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "everything3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "base_name": "exceedmind",
+      "title": "EXCEED MIND LIMIT",
+      "artist": "SOUND HOLIC feat. Nana Takahashi",
+      "jacket": "jackets/exceedmind.jpg",
+      "charts": [
+        {
+          "id": "exceedmind0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "exceedmind1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "exceedmind2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "exceedmind3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "base_name": "fallingshadow",
+      "title": "Falling Shadow",
+      "artist": "callasoiled",
+      "jacket": "jackets/fallingshadow.jpg",
+      "charts": [
+        {
+          "id": "fallingshadow0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "fallingshadow1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "fallingshadow2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "fallingshadow3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "base_name": "falsequre",
+      "title": "Falsequre",
+      "artist": "Blacklolita",
+      "jacket": "jackets/falsequre.jpg",
+      "charts": [
+        {
+          "id": "falsequre0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "falsequre1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "falsequre2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "falsequre3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "base_name": "ffff",
+      "title": "FFFF",
+      "artist": "zts",
+      "jacket": "jackets/ffff.jpg",
+      "charts": [
+        {
+          "id": "ffff0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "ffff1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "ffff2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "ffff3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "base_name": "fochaos",
+      "title": "F0 CHA0S",
+      "artist": "Lamanya",
+      "jacket": "jackets/fochaos.jpg",
+      "charts": [
+        {
+          "id": "fochaos0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "fochaos1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "fochaos2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "fochaos3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "base_name": "greyscalecity",
+      "title": "Greyscale City",
+      "artist": "litmus*",
+      "jacket": "jackets/greyscalecity.jpg",
+      "charts": [
+        {
+          "id": "greyscalecity0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "greyscalecity1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "greyscalecity2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "greyscalecity3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "base_name": "hanabi",
+      "title": "Hanabi",
+      "artist": "Snail's House",
+      "jacket": "jackets/hanabi.jpg",
+      "charts": [
+        {
+          "id": "hanabi0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "hanabi1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "hanabi2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "hanabi3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "base_name": "hyalouyne",
+      "title": "Hyaloüyne",
+      "artist": "ak+q",
+      "jacket": "jackets/hyalouyne.jpg",
+      "charts": [
+        {
+          "id": "hyalouyne0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "hyalouyne1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "hyalouyne2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "hyalouyne3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "base_name": "init",
+      "title": "init()",
+      "artist": "kamome sano",
+      "jacket": "jackets/init.jpg",
+      "charts": [
+        {
+          "id": "init0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "init1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "init2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "init3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "base_name": "kirapico",
+      "title": "キラピコ繚乱キラピコリン",
+      "artist": "立秋 feat. ちょこ",
+      "jacket": "jackets/kirapico.jpg",
+      "charts": [
+        {
+          "id": "kirapico0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "kirapico1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "kirapico2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "kirapico3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "base_name": "kiretsu",
+      "title": "綺劣",
+      "artist": "Laur",
+      "jacket": "jackets/kiretsu.jpg",
+      "charts": [
+        {
+          "id": "kiretsu0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "kiretsu1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "kiretsu2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "kiretsu3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "base_name": "latentduality",
+      "title": "Latent Duality",
+      "artist": "Palme",
+      "jacket": "jackets/latentduality.jpg",
+      "charts": [
+        {
+          "id": "latentduality0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "latentduality1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "latentduality2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "latentduality3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "base_name": "lfdy",
+      "title": "Live Fast Die Young",
+      "artist": "anubasu-anubasu",
+      "jacket": "jackets/lfdy.jpg",
+      "charts": [
+        {
+          "id": "lfdy0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "lfdy1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "lfdy2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "lfdy3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "base_name": "lightsout",
+      "title": "Lights Out",
+      "artist": "USAO",
+      "jacket": "jackets/lightsout.jpg",
+      "charts": [
+        {
+          "id": "lightsout0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "lightsout1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "lightsout2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "lightsout3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "base_name": "memoire",
+      "title": "Mémoire",
+      "artist": "Zekk",
+      "jacket": "jackets/memoire.jpg",
+      "charts": [
+        {
+          "id": "memoire0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "memoire1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "memoire2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "memoire3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "base_name": "minerva",
+      "title": "Minerva",
+      "artist": "Hylen",
+      "jacket": "jackets/minerva.jpg",
+      "charts": [
+        {
+          "id": "minerva0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "minerva1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "minerva2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "minerva3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "base_name": "mirinae",
+      "title": "MIRINAE",
+      "artist": "TAK × Zekk",
+      "jacket": "jackets/mirinae.jpg",
+      "charts": [
+        {
+          "id": "mirinae0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "mirinae1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "mirinae2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "mirinae3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "base_name": "moondiver",
+      "title": "M / O / O / N / D / I / V / E / R",
+      "artist": "Bitplane",
+      "jacket": "jackets/moondiver.jpg",
+      "charts": [
+        {
+          "id": "moondiver0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "moondiver1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "moondiver2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "moondiver3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "base_name": "moonsliders",
+      "title": "Moonsliders",
+      "artist": "DJ Noriken",
+      "jacket": "jackets/moonsliders.jpg",
+      "charts": [
+        {
+          "id": "moonsliders0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "moonsliders1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "moonsliders2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "moonsliders3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "base_name": "mydeadlysins",
+      "title": "My Deadly Sins",
+      "artist": "Sta",
+      "jacket": "jackets/mydeadlysins.jpg",
+      "charts": [
+        {
+          "id": "mydeadlysins0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "mydeadlysins1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "mydeadlysins2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "mydeadlysins3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "base_name": "newvision",
+      "title": "New Vision",
+      "artist": "ii/night feat. shizuki",
+      "jacket": "jackets/newvision.jpg",
+      "charts": [
+        {
+          "id": "newvision0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "newvision1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "newvision2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "newvision3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "base_name": "noctidea",
+      "title": "Noct Idea",
+      "artist": "Juggernaut.",
+      "jacket": "jackets/noctidea.jpg",
+      "charts": [
+        {
+          "id": "noctidea0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "noctidea1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "noctidea2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "noctidea3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "base_name": "nowiknow",
+      "title": "Now I know",
+      "artist": "lapix feat. RANASOL",
+      "jacket": "jackets/nowiknow.jpg",
+      "charts": [
+        {
+          "id": "nowiknow0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "nowiknow1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "nowiknow2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "nowiknow3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "base_name": "outerjustice",
+      "title": "Outer Justice",
+      "artist": "Morrigan feat.Lily",
+      "jacket": "jackets/outerjustice.jpg",
+      "charts": [
+        {
+          "id": "outerjustice0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "outerjustice1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "outerjustice2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "outerjustice3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "base_name": "papillonblanc",
+      "title": "papillon blanc",
+      "artist": "bermei.inazawa feat.乃花こより",
+      "jacket": "jackets/papillonblanc.jpg",
+      "charts": [
+        {
+          "id": "papillonblanc0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "papillonblanc1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "papillonblanc2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "papillonblanc3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "base_name": "phylaxron",
+      "title": "PhylaXron",
+      "artist": "Taishi",
+      "jacket": "jackets/phylaxron.jpg",
+      "charts": [
+        {
+          "id": "phylaxron0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "phylaxron1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "phylaxron2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 12,
+          "constant": 12.0
+        },
+        {
+          "id": "phylaxron3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 14,
+          "constant": 14.0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "base_name": "primevaltexture",
+      "title": "Primeval Texture",
+      "artist": "くるぶっこちゃん",
+      "jacket": "jackets/primevaltexture.jpg",
+      "charts": [
+        {
+          "id": "primevaltexture0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "primevaltexture1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "primevaltexture2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "primevaltexture3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "base_name": "reconnect",
+      "title": "Reconnect",
+      "artist": "BlackY feat. Risa Yuzuki",
+      "jacket": "jackets/reconnect.jpg",
+      "charts": [
+        {
+          "id": "reconnect0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "reconnect1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "reconnect2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "reconnect3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "base_name": "reflection",
+      "title": "Re:Flection",
+      "artist": "t+pazolite",
+      "jacket": "jackets/reflection.jpg",
+      "charts": [
+        {
+          "id": "reflection0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "reflection1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "reflection2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "reflection3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "base_name": "scarletespada",
+      "title": "Scarlet Espada",
+      "artist": "Yooh",
+      "jacket": "jackets/scarletespada.jpg",
+      "charts": [
+        {
+          "id": "scarletespada0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "scarletespada1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "scarletespada2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "scarletespada3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "base_name": "selfconfrontation",
+      "title": "Self-confrontatioN",
+      "artist": "s-don",
+      "jacket": "jackets/selfconfrontation.jpg",
+      "charts": [
+        {
+          "id": "selfconfrontation0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "selfconfrontation1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "selfconfrontation2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "selfconfrontation3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "base_name": "shadowsofunknown",
+      "title": "Shadows of Unknown",
+      "artist": "Sad Keyboard Guy feat. vally.exe",
+      "jacket": "jackets/shadowsofunknown.jpg",
+      "charts": [
+        {
+          "id": "shadowsofunknown0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "shadowsofunknown1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "shadowsofunknown2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "shadowsofunknown3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "base_name": "shouldhavebeen",
+      "title": "should have been",
+      "artist": "Frums",
+      "jacket": "jackets/shouldhavebeen.jpg",
+      "charts": [
+        {
+          "id": "shouldhavebeen0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "shouldhavebeen1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "shouldhavebeen2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "shouldhavebeen3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "base_name": "sinutopia",
+      "title": "Sin Utopia",
+      "artist": "Kobaryo",
+      "jacket": "jackets/sinutopia.jpg",
+      "charts": [
+        {
+          "id": "sinutopia0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "sinutopia1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "sinutopia2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "sinutopia3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "base_name": "sunanokioku",
+      "title": "砂の記憶",
+      "artist": "Nyolfen",
+      "jacket": "jackets/sunanokioku.jpg",
+      "charts": [
+        {
+          "id": "sunanokioku0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "sunanokioku1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "sunanokioku2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "sunanokioku3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "base_name": "tactom",
+      "title": "TACTOM",
+      "artist": "onoken",
+      "jacket": "jackets/tactom.jpg",
+      "charts": [
+        {
+          "id": "tactom0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "tactom1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "tactom2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "tactom3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 14,
+          "constant": 14.0
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "base_name": "thingsitreasure",
+      "title": "Things I Treasure",
+      "artist": "黒沢ダイスケ feat. 濱田道子",
+      "jacket": "jackets/thingsitreasure.jpg",
+      "charts": [
+        {
+          "id": "thingsitreasure0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "thingsitreasure1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "thingsitreasure2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "thingsitreasure3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "base_name": "toccatafunebre",
+      "title": "Toccata Funebre",
+      "artist": "Katali",
+      "jacket": "jackets/toccatafunebre.jpg",
+      "charts": [
+        {
+          "id": "toccatafunebre0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "toccatafunebre1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "toccatafunebre2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "toccatafunebre3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "base_name": "tokonagi",
+      "title": "▓",
+      "artist": "∞",
+      "jacket": "jackets/tokonagi.jpg",
+      "charts": [
+        {
+          "id": "tokonagi0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "tokonagi1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "tokonagi2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 12,
+          "constant": 12.0
+        },
+        {
+          "id": "tokonagi3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 15,
+          "constant": 15.0
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "base_name": "trajectoryofhope",
+      "title": "Trajectory of Hope",
+      "artist": "TAG",
+      "jacket": "jackets/trajectoryofhope.jpg",
+      "charts": [
+        {
+          "id": "trajectoryofhope0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "trajectoryofhope1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "trajectoryofhope2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "trajectoryofhope3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "base_name": "transparency",
+      "title": "Transparency",
+      "artist": "くるぶっこちゃん",
+      "jacket": "jackets/transparency.jpg",
+      "charts": [
+        {
+          "id": "transparency0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "transparency1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "transparency2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "transparency3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "base_name": "vesper",
+      "title": "Vesper",
+      "artist": "Dustvoxx",
+      "jacket": "jackets/vesper.jpg",
+      "charts": [
+        {
+          "id": "vesper0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "vesper1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "vesper2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "vesper3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "base_name": "withtruth",
+      "title": "With Truth",
+      "artist": "ARForest feat.nayuta",
+      "jacket": "jackets/withtruth.jpg",
+      "charts": [
+        {
+          "id": "withtruth0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "withtruth1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "withtruth2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "withtruth3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "base_name": "worldender",
+      "title": "魔王",
+      "artist": "sasakure.UK × TJ.hangneil",
+      "jacket": "jackets/worldender.jpg",
+      "charts": [
+        {
+          "id": "worldender0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "worldender1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "worldender2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "worldender3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "base_name": "yggthrasir",
+      "title": "yggthrasir",
+      "artist": "ikaruga_nex",
+      "jacket": "jackets/yggthrasir.jpg",
+      "charts": [
+        {
+          "id": "yggthrasir0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "yggthrasir1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "yggthrasir2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "yggthrasir3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "base_name": "zetta",
+      "title": "Zetta",
+      "artist": "Hommarju",
+      "jacket": "jackets/zetta.jpg",
+      "charts": [
+        {
+          "id": "zetta0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "zetta1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "zetta2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "zetta3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "base_name": "zfc",
+      "title": "ZFC",
+      "artist": "cybermiso",
+      "jacket": "jackets/zfc.jpg",
+      "charts": [
+        {
+          "id": "zfc0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "zfc1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "zfc2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "zfc3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "base_name": "forbiddensouls",
+      "title": "Forbidden Souls",
+      "artist": "Nhato",
+      "jacket": "jackets/forbiddensouls.jpg",
+      "charts": [
+        {
+          "id": "forbiddensouls0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "forbiddensouls1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "forbiddensouls2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "forbiddensouls3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "base_name": "ghostray",
+      "title": "Ghost Ray",
+      "artist": "Qlarabelle & crayvxn",
+      "jacket": "jackets/ghostray.jpg",
+      "charts": [
+        {
+          "id": "ghostray0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "ghostray1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "ghostray2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "ghostray3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "base_name": "wonderroom",
+      "title": "WonderRoom2.0",
+      "artist": "virtual Nice dog workS",
+      "jacket": "jackets/wonderroom.jpg",
+      "charts": [
+        {
+          "id": "wonderroom0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "wonderroom1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "wonderroom2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "wonderroom3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "base_name": "deepintothevibe",
+      "title": "Deep Into The Vibe",
+      "artist": "rejection",
+      "jacket": "jackets/deepintothevibe.jpg",
+      "charts": [
+        {
+          "id": "deepintothevibe0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "deepintothevibe1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "deepintothevibe2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "deepintothevibe3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "base_name": "cylin",
+      "title": "cylin",
+      "artist": "kalsoer",
+      "jacket": "jackets/cylin.jpg",
+      "charts": [
+        {
+          "id": "cylin0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "cylin1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "cylin2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "cylin3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "base_name": "ordirehv",
+      "title": "Ordirehv",
+      "artist": "Feryquitous",
+      "jacket": "jackets/ordirehv.jpg",
+      "charts": [
+        {
+          "id": "ordirehv0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "ordirehv1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "ordirehv2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "ordirehv3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 10,
+          "constant": 10.0
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "base_name": "rainshower",
+      "title": "驟雨の狭間",
+      "artist": "Silentroom",
+      "jacket": "jackets/rainshower.jpg",
+      "charts": [
+        {
+          "id": "rainshower0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "rainshower1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "rainshower2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "rainshower3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "base_name": "albedo",
+      "title": "Albedo",
+      "artist": "void (Mournfinale)",
+      "jacket": "jackets/albedo.jpg",
+      "charts": [
+        {
+          "id": "albedo0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "albedo1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "albedo2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "albedo3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "base_name": "neonvision",
+      "title": "NEONViSION",
+      "artist": "REDALiCE",
+      "jacket": "jackets/neonvision.jpg",
+      "charts": [
+        {
+          "id": "neonvision0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "neonvision1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "neonvision2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "neonvision3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "base_name": "kuukaku",
+      "title": "空殻",
+      "artist": "Camellia feat. ナノ",
+      "jacket": "jackets/kuukaku.jpg",
+      "charts": [
+        {
+          "id": "kuukaku0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "kuukaku1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "kuukaku2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 11,
+          "constant": 11.0
+        },
+        {
+          "id": "kuukaku3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 14,
+          "constant": 14.0
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "base_name": "roki",
+      "title": "ロキ",
+      "artist": "mikitoP",
+      "jacket": "jackets/roki.jpg",
+      "charts": [
+        {
+          "id": "roki0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "roki1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "roki2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "roki3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 13,
+          "constant": 13.0
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "base_name": "lostonesweeping",
+      "title": "ロストワンの号哭",
+      "artist": "Neru",
+      "jacket": "jackets/lostonesweeping.jpg",
+      "charts": [
+        {
+          "id": "lostonesweeping0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 2,
+          "constant": 2.0
+        },
+        {
+          "id": "lostonesweeping1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 5,
+          "constant": 5.0
+        },
+        {
+          "id": "lostonesweeping2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "lostonesweeping3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "base_name": "nonbreathoblige",
+      "title": "ノンブレス・オブリージュ",
+      "artist": "PinocchioP",
+      "jacket": "jackets/nonbreathoblige.jpg",
+      "charts": [
+        {
+          "id": "nonbreathoblige0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 3,
+          "constant": 3.0
+        },
+        {
+          "id": "nonbreathoblige1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 6,
+          "constant": 6.0
+        },
+        {
+          "id": "nonbreathoblige2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 9,
+          "constant": 9.0
+        },
+        {
+          "id": "nonbreathoblige3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "base_name": "kakushicommand",
+      "title": "幸せになれる隠しコマンドがあるらしい",
+      "artist": "UtataP",
+      "jacket": "jackets/kakushicommand.jpg",
+      "charts": [
+        {
+          "id": "kakushicommand0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "kakushicommand1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 7,
+          "constant": 7.0
+        },
+        {
+          "id": "kakushicommand2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 10,
+          "constant": 10.0
+        },
+        {
+          "id": "kakushicommand3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 12,
+          "constant": 12.0
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "base_name": "monitoring",
+      "title": "モニタリング",
+      "artist": "DECO*27",
+      "jacket": "jackets/monitoring.jpg",
+      "charts": [
+        {
+          "id": "monitoring0",
+          "difficulty": 1,
+          "name": "MIN",
+          "level": 1,
+          "constant": 1.0
+        },
+        {
+          "id": "monitoring1",
+          "difficulty": 2,
+          "name": "EVO",
+          "level": 4,
+          "constant": 4.0
+        },
+        {
+          "id": "monitoring2",
+          "difficulty": 4,
+          "name": "ULT",
+          "level": 8,
+          "constant": 8.0
+        },
+        {
+          "id": "monitoring3",
+          "difficulty": 8,
+          "name": "FBD",
+          "level": 11,
+          "constant": 11.0
+        }
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "seiko_amphitheatre_clip",
+      "name": "seiko amphitheatre clip",
+      "file": "backgrounds/seiko_amphitheatre_clip.jpg"
+    }
+  ],
+  "titleLocale": "SimplifiedChinese"
+}

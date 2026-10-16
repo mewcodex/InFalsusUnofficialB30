@@ -1,0 +1,17 @@
+{
+  "source": "infalsus_Data/sharedassets0.assets",
+  "fonts": [
+    {
+      "file": "Supreme-Bold.otf",
+      "sha256": "0ade4073ccce175219f107ef7ed490ef8c7deb160f4b0b062bedc0bcd63fdcd5"
+    },
+    {
+      "file": "Supreme-Regular.otf",
+      "sha256": "aced9e6c6c5168bd279c2715fa8c2ba4e669f635f3332c26859b072c26b97b5d"
+    },
+    {
+      "file": "ChironHeiHK-SB.otf",
+      "sha256": "d7917a4fc03ecde777306c9f6ae5f4a3144ada8716fd24c9d32dd0890f46f63c"
+    }
+  ]
+}
