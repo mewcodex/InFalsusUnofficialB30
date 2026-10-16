@@ -9,3 +9,9 @@ Users select `savestate_V3.sav` at `%USERPROFILE%\AppData\LocalLow\lowiro\infals
 Serve `docs/` with any static server. Published URL: https://mewcodex.github.io/InFalsusUnofficialB30/ . GitHub Pages serves `gh-pages` / root. Publish subsequent updates with `git subtree push --prefix=docs origin gh-pages`. No build step. Python and C# source branches remain separate.
 
 Rendering needs a modern WebAssembly-capable browser and enough memory for 2700px images. First load includes Python/Pillow and fonts. Generated pages can be downloaded individually. Refreshing the tab discards loaded save data.
+
+## Community constants and score progress
+
+The optional community constants (By @安小璃) are transcribed from the user-provided chart dated 2026-10-15. Charts not listed use game level + 0.5. The complete 300-chart CSV is downloadable from the page; default mode continues to use level.0, and imported custom tables remain available.
+
+Score sheets display EX (score >= 98,000,000, including EX+) and EX+ (>= 99,000,000) counts across the complete active filter. The denominator includes all catalog charts in that filter, including unplayed charts. Every page displays the same overall progress.

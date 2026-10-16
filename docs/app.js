@@ -2,7 +2,7 @@ const $=id=>document.getElementById(id);
 let worker,ready=false,busy=false,hasSave=false,serial=0;
 const pending=new Map(),urls=[];
 function status(text,error=false){$('status').textContent=text;$('status').style.color=error?'#ffb6bd':'#bfddd5';}
-function controls(){['save','constants','template','resetConstants'].forEach(id=>$(id).disabled=!ready||busy);$('generate').disabled=!ready||busy||!hasSave;}
+function controls(){['save','constants','template','resetConstants','constantSource'].forEach(id=>$(id).disabled=!ready||busy);$('generate').disabled=!ready||busy||!hasSave;}
 function request(type,payload={}){return new Promise((resolve,reject)=>{const id=++serial;pending.set(id,{resolve,reject});worker.postMessage({id,type,...payload});});}
 function clearResults(){urls.forEach(URL.revokeObjectURL);urls.length=0;$('results').replaceChildren();}
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);}
@@ -34,11 +34,11 @@ $('template').onclick=()=>task(async()=>download(new Blob(['\ufeff',await reques
 $('constants').onchange=()=>task(async()=>{
  const file=$('constants').files[0];if(!file)return;if(file.size>2000000)throw Error('定数表文件过大。');
  const bytes=await file.arrayBuffer();let text;try{text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);}catch{text=new TextDecoder('gb18030',{fatal:true}).decode(bytes);}
- await request('constants',{text});$('constantsLabel').textContent='当前：'+file.name;status('自定义定数已导入');
+ await request('constants',{text});$('constantsLabel').textContent='自定义定数：'+file.name;$('constantSource').querySelector('[value=custom]').disabled=false;$('constantSource').value='custom';status('自定义定数已导入');
 });
-$('resetConstants').onclick=()=>task(async()=>{await request('resetConstants');$('constantsLabel').textContent='当前：等级.0';$('constants').value='';status('已恢复等级.0');});
+$('resetConstants').onclick=()=>task(async()=>{await request('resetConstants');$('constantsLabel').textContent='自定义定数：未导入';$('constantSource').value='default';$('constantSource').querySelector('[value=custom]').disabled=true;$('constants').value='';status('已恢复等级.0');});
 $('generate').onclick=()=>task(async()=>{
- const options={name:$('name').value.trim()||'PLAYER',character:$('character').value,mode:$('mode').value,
+ const options={name:$('name').value.trim()||'PLAYER',character:$('character').value,mode:$('mode').value,constantSource:$('constantSource').value,
  difficulties:[...document.querySelectorAll('.checks input:checked')].map(e=>Number(e.value)),minLevel:Number($('minLevel').value),maxLevel:Number($('maxLevel').value)};
  if(options.mode==='scores'&&(!options.difficulties.length||options.minLevel>options.maxLevel))throw Error('请至少选择一种难度，并确认最低等级不高于最高等级。');
  status('正在生成图片…');const result=await request('render',{options});clearResults();

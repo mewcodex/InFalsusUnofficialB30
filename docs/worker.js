@@ -20,6 +20,7 @@ import b30
 catalog=b30.load_catalog()
 records=None
 custom_constants=None
+community_constants=b30.load_constants('/app/assets/community-constants.csv',catalog)
 `);
  return true;
 }
@@ -50,11 +51,15 @@ json.dumps({'count':len(records),'character':records.selected_character,'warning
    py.globals.set('options_json',JSON.stringify(data.options));
    const info=JSON.parse(py.runPython(`options=json.loads(options_json)
 if records is None: raise b30.InputError('请先选择存档。')
-ranked, skipped=b30.rank_records(records,catalog,custom_constants)
+constants=community_constants if options.get('constantSource')=='community' else custom_constants if options.get('constantSource')=='custom' else None
+ranked, skipped=b30.rank_records(records,catalog,constants)
 if not ranked: raise b30.InputError('存档中没有受支持的曲目成绩。')
 selected=b30.filter_scores(ranked,options['difficulties'],options['minLevel'],options['maxLevel']) if options['mode']=='scores' else ranked
 if not selected: raise b30.InputError('筛选范围内没有成绩。')
 pages=b30.score_pages(selected) if options['mode']=='scores' else [None]
+progress_stats=b30.score_progress(selected,catalog,options['difficulties'],options['minLevel'],options['maxLevel'])
+for page in pages:
+ if page is not None: page['progress']=progress_stats
 character=options['character'] if options['character']!='auto' else (records.selected_character or 'Nia')
 json.dumps({'pages':len(pages),'skipped':len(skipped),'count':len(selected) if options['mode']=='scores' else min(30,len(selected))})`));
    const files=[];
