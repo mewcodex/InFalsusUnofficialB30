@@ -426,24 +426,16 @@ def score_progress(selected, catalog, difficulties, min_level, max_level):
 
 
 def score_pages(records):
-    # Keep all matching records, with a fresh level heading on continuation pages.
-    pages=[]; page={'records':[], 'positions':[], 'headings':[]}; y=292
-    levels=sorted({r['level'] for r in records}, reverse=True)
-    for level in levels:
-        group=[r for r in records if r['level']==level]; offset=0
-        while offset < len(group):
-            if y+54+182 > 2100:
-                pages.append(page); page={'records':[], 'positions':[], 'headings':[]}; y=292
-            page['headings'].append((y,level)); y+=54
-            while offset < len(group) and y+182 <= 2100:
-                row=group[offset:offset+3]
-                for col,r in enumerate(row):
-                    page['records'].append(r); page['positions'].append((56+col*570,y))
-                offset+=len(row); y+=182
-            if offset < len(group):
-                pages.append(page); page={'records':[], 'positions':[], 'headings':[]}; y=292
-    if page['records']:pages.append(page)
-    return pages
+    # A single four-column sheet, with a fresh row for each game level.
+    page={'records':[], 'positions':[], 'headings':[]}; y=292
+    for level in sorted({r['level'] for r in records}, reverse=True):
+        group=[r for r in records if r['level']==level]
+        page['headings'].append((y,level)); y+=54
+        for offset in range(0,len(group),4):
+            for col,r in enumerate(group[offset:offset+4]):
+                page['records'].append(r); page['positions'].append((56+col*570,y))
+            y+=182
+    return [page] if page['records'] else []
 
 
 def export_images(ranked,catalog,output,name,character,score_mode=False,difficulties=None,min_level=None,max_level=None):
@@ -468,13 +460,16 @@ def export_images(ranked,catalog,output,name,character,score_mode=False,difficul
 def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, page_label='', filter_label=''):
     W,H=EXPORT_SIZE
     footer_y=2150 if score_page is None else max(y for x,y in score_page['positions'])+222
-    if score_page is not None: H=round((footer_y+150)*1.5)
+    if score_page is not None: W=3555; H=round((footer_y+150)*1.5)
     scale=1.5
+    right=W/scale-56
     def pixel(n):return round(n*scale)
     if character not in CHARACTERS:raise InputError('请选择支持的角色。')
     bg=ASSETS/'backgrounds'/f'{BACKGROUND}.jpg'
-    im=ImageOps.fit(Image.open(bg).convert('RGB'),(W,H),centering=(0.70,0.50)).convert('RGBA')
-    im=Image.alpha_composite(im,Image.new('RGBA',(W,H),(7,14,24,180)))
+    background=Image.open(bg).convert('RGBA')
+    background=Image.alpha_composite(background,Image.new('RGBA',background.size,(7,14,24,180)))
+    im=ImageOps.fit(background,(W,H),centering=(0.70,0.50))
+    background.close()
     d=ScaledDraw(im)
     avatar=Image.open(ASSETS/'avatars'/f'{character.lower()}.png').convert('RGBA')
     avatar=avatar.resize((pixel(184),pixel(184)),Image.Resampling.LANCZOS);im.alpha_composite(avatar,(pixel(54),pixel(52)))
@@ -490,24 +485,28 @@ def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, pag
     d.text((263,name_top),username,font=f,fill='white',anchor='lt')
     d.text((263,name_top+name_height+header_gap+6),('SCORE RECORDS' if score_page is not None else 'PLAYER BESTS'),font=font(22,family='heading'),fill='#a7c4ce',anchor='lt')
     if score_page is None:
-        d.text((1744,70),'UNOFFICIAL POTENTIAL',font=font(24,family='heading'),fill='#9fdacb',anchor='ra')
-        d.text((1744,103),f'{b30_value(ranked):.4f}',font=font(80,True,numeric=True),fill='white',anchor='ra')
+        d.text((right,70),'UNOFFICIAL POTENTIAL',font=font(24,family='heading'),fill='#9fdacb',anchor='ra')
+        d.text((right,103),f'{b30_value(ranked):.4f}',font=font(80,True,numeric=True),fill='white',anchor='ra')
     else:
         ex,ex_plus,total=score_page.get('progress',(0,0,len(ranked)))
-        d.text((1744,70),f'EX   {ex}/{total}',font=font(42,numeric=True),fill='#d7bcff',anchor='ra')
-        d.text((1744,132),f'EX+   {ex_plus}/{total}',font=font(42,numeric=True),fill='#ffbddc',anchor='ra')
-        d.text((1744,222),filter_label+'  |  '+page_label,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
-    d.line((56,262,1744,262),fill='#91bfbf',width=2)
+        d.text((right,70),f'EX   {ex}/{total}',font=font(42,numeric=True),fill='#d7bcff',anchor='ra')
+        d.text((right,132),f'EX+   {ex_plus}/{total}',font=font(42,numeric=True),fill='#ffbddc',anchor='ra')
+        d.text((right,222),filter_label,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
+    d.line((56,262,right,262),fill='#91bfbf',width=2)
     y0=292;cw=548;gap=22;step=182
     positions=score_page['positions'] if score_page is not None else [(56+(i%3)*(cw+gap),y0+(i//3)*step) for i in range(30)]
-    layer=Image.new('RGBA',(W,H),(0,0,0,0));ld=ScaledDraw(layer)
+    # Composite one reusable card panel rather than a second full-length canvas.
+    panel=Image.new('RGBA',(pixel(cw+2),pixel(176)),(0,0,0,0))
+    pd=ScaledDraw(panel)
+    pd.rounded_rectangle((0,0,cw,174),radius=12,fill=(8,21,33,210),outline=(120,154,173,65),width=1)
     for x,y in positions:
-        ld.rounded_rectangle((x,y-2,x+cw,y+172),radius=12,fill=(8,21,33,210),outline=(120,154,173,65),width=1)
-    im=Image.alpha_composite(im,layer);d=ScaledDraw(im)
+        im.alpha_composite(panel,(pixel(x),pixel(y-2)))
+    panel.close()
+    d=ScaledDraw(im)
     if score_page is not None:
         for hy,level in score_page['headings']:
             d.text((56,hy+5),f'LEVEL {level}',font=font(28,True,numeric=True),fill='#b4e2d7')
-            d.line((240,hy+25,1744,hy+25),fill='#688b94',width=1)
+            d.line((240,hy+25,right,hy+25),fill='#688b94',width=1)
     for i,(x,y) in enumerate(positions):
         if i>=len(ranked):
             d.text((x+cw-17,y+155),f'#{i+1:02}',font=font(17,True,numeric=True),fill='#778b99',anchor='rb')
@@ -524,10 +523,10 @@ def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, pag
         judgement_top=draw_judgements(d,(tx,y+137),r.get('judgements'),maxw-48)
         title_bottom=y+72+d.scaled_font(tf).getbbox(title,anchor='ls')[3]/scale
         draw_score(im,d,tx,title_bottom,judgement_top,r['score'],maxw)
-    d.line((56,footer_y,1744,footer_y),fill='#91bfbf',width=1)
+    d.line((56,footer_y,right,footer_y),fill='#91bfbf',width=1)
     d.text((56,footer_y+32),'非官方成绩图 · 不代表游戏内评级',font=font(21),fill='#becdd6')
     stamp=datetime.now().strftime('%Y.%m.%d')
-    d.text((1744,footer_y+32),stamp,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
+    d.text((right,footer_y+32),stamp,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
     return im.convert('RGB')
 
 def enable_high_dpi():
