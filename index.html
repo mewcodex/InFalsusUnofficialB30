@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101c27"><title>In Falsus · Player Bests</title><link rel="stylesheet" href="style.css"></head>
+<body><main><header><img src="assets/logo.png" alt="In Falsus"><span>UNOFFICIAL / 非官方工具</span></header>
+<div class="intro"><p class="eyebrow">YOUR SCORES, ON ONE SHEET</p><h1>Player Bests</h1><p>B30 成绩图与分级分数表。保留每一次突破。</p></div>
+<div class="workspace"><section class="panel"><h2>生成成绩图</h2>
+<label class="filebox" for="save"><strong>选择游戏存档</strong><span id="fileLabel">savestate_V3.sav</span><input id="save" type="file" accept=".sav" disabled></label>
+<p class="privacy">存档仅在此设备的浏览器内解析，不发送到服务器。</p>
+<div class="pair"><label>玩家名字<input id="name" value="PLAYER" maxlength="60" autocomplete="off"></label><label>头像<select id="character"><option value="auto">自动 · 当前角色</option><option>Nia</option><option>Mei</option><option>Ayame</option><option>Iris</option><option>Story</option></select></label></div>
+<label>图片类型<select id="mode"><option value="b30">B30 · 最高单曲评价</option><option value="scores">分数表 · 按等级分组</option></select></label>
+<fieldset id="filters" hidden><legend>筛选谱面</legend><div class="checks"><label><input type="checkbox" value="1" checked>MIN</label><label><input type="checkbox" value="2" checked>EVO</label><label><input type="checkbox" value="4" checked>ULT</label><label><input type="checkbox" value="8" checked>FBD</label></div><div class="pair"><label>最低等级<select id="minLevel"></select></label><label>最高等级<select id="maxLevel"></select></label></div><small>等级从高到低，组内分数降序。全部匹配成绩自动分页。</small></fieldset>
+<details><summary>自定义定数</summary><p>未导入时使用等级.0；分数表始终按游戏等级分组。</p><div class="actions"><button id="template" disabled>下载模板</button><label class="button">导入 CSV<input id="constants" type="file" accept=".csv" disabled></label><button id="resetConstants" disabled>恢复默认</button></div><small id="constantsLabel">当前：等级.0</small></details>
+<button class="primary" id="generate" disabled>生成图片</button><p id="status" role="status" aria-live="polite">正在准备绘图引擎…</p><button id="retry" hidden>重新加载引擎</button>
+</section><section class="preview"><div class="previewhead"><h2>图片预览</h2><span id="resultInfo">生成后可下载 PNG</span></div><div id="results"><div class="empty"><span>01 — 30</span><p>你的下一张成绩图</p><small>先选择存档，再生成图片</small></div></div></section></div>
+<section class="help"><h2>存档在哪里？</h2><p>Windows 文件资源管理器地址栏输入：</p><code>%USERPROFILE%\AppData\LocalLow\lowiro\infalsus</code><p>打开你的 Steam ID 文件夹 → <b>release</b> → 选择 <b>savestate_V3.sav</b>。只需这一个文件；不需要安装目录、音乐资源或整个存档文件夹。建议退出游戏后再选择。</p><p>网页不能自动读取 Steam 昵称，请自行填写名字。未知谱面会跳过。首次使用需下载绘图引擎与字体；生成时请保持页面打开。</p></section>
+<footer>非官方成绩图 · 不代表游戏内评级 <a href="https://github.com/mewcodex/InFalsusUnofficialB30/tree/codex/web">源代码</a></footer></main><script type="module" src="app.js"></script></body></html>
