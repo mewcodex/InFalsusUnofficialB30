@@ -6,6 +6,6 @@ B30 and level-grouped score sheets use the same Python/Pillow engine as desktop 
 
 Users select `savestate_V3.sav` at `%USERPROFILE%\AppData\LocalLow\lowiro\infalsus\<Steam ID>\release\savestate_V3.sav`. Browser security prevents automatic Steam nickname lookup. Unknown charts are skipped. Input format checks are retained from desktop; unsupported save formats fail rather than guessing.
 
-Serve `docs/` with any static server. Configure GitHub Pages source as `codex/web` / `docs`. No build step. Python and C# source branches remain separate.
+Serve `docs/` with any static server. Published URL: https://mewcodex.github.io/InFalsusUnofficialB30/ . GitHub Pages serves `gh-pages` / root. Publish subsequent updates with `git subtree push --prefix=docs origin gh-pages`. No build step. Python and C# source branches remain separate.
 
 Rendering needs a modern WebAssembly-capable browser and enough memory for 2700px images. First load includes Python/Pillow and fonts. Generated pages can be downloaded individually. Refreshing the tab discards loaded save data.
