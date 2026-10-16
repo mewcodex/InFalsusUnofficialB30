@@ -10,7 +10,7 @@ async function task(fn){busy=true;controls();try{await fn();}catch(e){status(e.m
 async function boot(){
  ready=false;controls();$('retry').hidden=true;worker?.terminate();
  for(const p of pending.values())p.reject(Error('引擎已重新加载'));pending.clear();
- worker=new Worker('./worker.js',{type:'module'});
+ worker=new Worker('./worker.js?v=20261016-long-sheet-2',{type:'module'});
  worker.onmessage=({data})=>{if(data.type==='progress'){status(data.text);return;}const p=pending.get(data.id);if(!p)return;pending.delete(data.id);data.error?p.reject(Error(data.error)):p.resolve(data.result);};
  worker.onerror=e=>{const error=Error('绘图引擎加载失败，请检查网络后重试。');for(const p of pending.values())p.reject(error);pending.clear();ready=false;controls();$('retry').hidden=false;status(error.message,true);};
  try{await request('init');ready=true;status('已就绪 · 选择 savestate_V3.sav 开始');controls();}

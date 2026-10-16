@@ -1,15 +1,16 @@
 import { loadPyodide } from 'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.mjs';
 let py, initPromise;
+const revision=new URL(import.meta.url).searchParams.get('v')||'dev';
 const progress = text => postMessage({type:'progress',text});
 async function initialize(){
  progress('正在加载本地绘图引擎，首次打开可能需要一些时间…');
  py=await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/'});
  await py.loadPackage('pillow');
- const response=await fetch('./files.json');if(!response.ok)throw Error('无法加载资源清单');
+ const response=await fetch('./files.json?v='+revision,{cache:'no-store'});if(!response.ok)throw Error('无法加载资源清单');
  const files=await response.json();let next=0,done=0;
  py.FS.mkdirTree('/app');
  await Promise.all(Array.from({length:4},async()=>{while(next<files.length){
-  const file=files[next++],res=await fetch('./'+file);if(!res.ok)throw Error('资源加载失败：'+file);
+  const file=files[next++],res=await fetch('./'+file+(file==='engine/b30.py'?'?v='+revision:''),file==='engine/b30.py'?{cache:'no-store'}:{});if(!res.ok)throw Error('资源加载失败：'+file);
   const path='/app/'+(file==='engine/b30.py'?'b30.py':file);
   py.FS.mkdirTree(path.slice(0,path.lastIndexOf('/')));py.FS.writeFile(path,new Uint8Array(await res.arrayBuffer()));
   progress(`正在准备字体与曲绘 ${++done}/${files.length}`);
@@ -57,6 +58,7 @@ if not ranked: raise b30.InputError('存档中没有受支持的曲目成绩。'
 selected=b30.filter_scores(ranked,options['difficulties'],options['minLevel'],options['maxLevel']) if options['mode']=='scores' else ranked
 if not selected: raise b30.InputError('筛选范围内没有成绩。')
 pages=b30.score_pages(selected) if options['mode']=='scores' else [None]
+if len(pages)!=1: raise b30.InputError('绘图引擎版本过旧，请刷新页面后重新选择存档。')
 progress_stats=b30.score_progress(selected,catalog,options['difficulties'],options['minLevel'],options['maxLevel'])
 for page in pages:
  if page is not None: page['progress']=progress_stats
