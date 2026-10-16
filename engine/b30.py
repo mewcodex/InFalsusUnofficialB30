@@ -418,6 +418,13 @@ def filter_scores(ranked, difficulties=None, min_level=None, max_level=None):
         key=lambda r: (-r['level'], -r['score'], r['base_name'], r['difficulty']))
 
 
+def score_progress(selected, catalog, difficulties, min_level, max_level):
+    total=sum(1 for song in catalog['songs'] for c in song['charts']
+              if c['difficulty'] in difficulties and min_level <= c['level'] <= max_level)
+    return (sum(r['score'] >= 98_000_000 for r in selected),
+            sum(r['score'] >= 99_000_000 for r in selected), total)
+
+
 def score_pages(records):
     # Keep all matching records, with a fresh level heading on continuation pages.
     pages=[]; page={'records':[], 'positions':[], 'headings':[]}; y=292
@@ -486,9 +493,10 @@ def render(ranked, catalog, name='PLAYER', character='Nia', score_page=None, pag
         d.text((1744,70),'UNOFFICIAL POTENTIAL',font=font(24,family='heading'),fill='#9fdacb',anchor='ra')
         d.text((1744,103),f'{b30_value(ranked):.4f}',font=font(80,True,numeric=True),fill='white',anchor='ra')
     else:
-        d.text((1744,70),'SCORE COLLECTION',font=font(24,family='heading'),fill='#9fdacb',anchor='ra')
-        d.text((1744,112),page_label,font=font(48,numeric=True),fill='white',anchor='ra')
-        d.text((1744,222),filter_label,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
+        ex,ex_plus,total=score_page.get('progress',(0,0,len(ranked)))
+        d.text((1744,70),f'EX   {ex}/{total}',font=font(42,numeric=True),fill='#d7bcff',anchor='ra')
+        d.text((1744,132),f'EX+   {ex_plus}/{total}',font=font(42,numeric=True),fill='#ffbddc',anchor='ra')
+        d.text((1744,222),filter_label+'  |  '+page_label,font=font(20,numeric=True),fill='#becdd6',anchor='ra')
     d.line((56,262,1744,262),fill='#91bfbf',width=2)
     y0=292;cw=548;gap=22;step=182
     positions=score_page['positions'] if score_page is not None else [(56+(i%3)*(cw+gap),y0+(i//3)*step) for i in range(30)]

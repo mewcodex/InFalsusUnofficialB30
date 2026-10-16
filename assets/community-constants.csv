@@ -1,0 +1,301 @@
+﻿谱面ID,曲名,难度,定数
+alamode0,à la mode,MIN,1.5
+alamode1,à la mode,EVO,5.5
+alamode2,à la mode,ULT,9.5
+alamode3,à la mode,FBD,11.5
+alterededge0,Altered Edge,MIN,2.5
+alterededge1,Altered Edge,EVO,5.5
+alterededge2,Altered Edge,ULT,9.5
+alterededge3,Altered Edge,FBD,11.5
+bethere0,Be There,MIN,3.5
+bethere1,Be There,EVO,6.5
+bethere2,Be There,ULT,10.3
+bethere3,Be There,FBD,12.1
+chaoticismlegacy0,Chaoticism Legacy,MIN,4.5
+chaoticismlegacy1,Chaoticism Legacy,EVO,7.5
+chaoticismlegacy2,Chaoticism Legacy,ULT,10.7
+chaoticismlegacy3,Chaoticism Legacy,FBD,13.8
+chronomia0,Chronomia,MIN,2.5
+chronomia1,Chronomia,EVO,5.5
+chronomia2,Chronomia,ULT,10.1
+chronomia3,Chronomia,FBD,11.1
+chronophobia0,Chronophobia,MIN,6.5
+chronophobia1,Chronophobia,EVO,9.5
+chronophobia2,Chronophobia,ULT,11.9
+chronophobia3,Chronophobia,FBD,14.5
+codeleviathan0,code:Leviathan,MIN,5.5
+codeleviathan1,code:Leviathan,EVO,8.5
+codeleviathan2,code:Leviathan,ULT,11.8
+codeleviathan3,code:Leviathan,FBD,14.1
+coldsea0,Cold Sea,MIN,4.5
+coldsea1,Cold Sea,EVO,7.5
+coldsea2,Cold Sea,ULT,10.8
+coldsea3,Cold Sea,FBD,13.3
+cryogenic0,Cryogenic,MIN,2.5
+cryogenic1,Cryogenic,EVO,5.5
+cryogenic2,Cryogenic,ULT,9.5
+cryogenic3,Cryogenic,FBD,12.4
+cyaegha0,Cyaegha,MIN,3.5
+cyaegha1,Cyaegha,EVO,6.5
+cyaegha2,Cyaegha,ULT,10.5
+cyaegha3,Cyaegha,FBD,12.2
+destroyer0,Destr0yer,MIN,3.5
+destroyer1,Destr0yer,EVO,6.5
+destroyer2,Destr0yer,ULT,9.5
+destroyer3,Destr0yer,FBD,12.2
+enigma0,Enigma,MIN,4.5
+enigma1,Enigma,EVO,7.5
+enigma2,Enigma,ULT,11.8
+enigma3,Enigma,FBD,13.7
+everything0,Everything,MIN,1.5
+everything1,Everything,EVO,4.5
+everything2,Everything,ULT,8.5
+everything3,Everything,FBD,10.8
+exceedmind0,EXCEED MIND LIMIT,MIN,3.5
+exceedmind1,EXCEED MIND LIMIT,EVO,6.5
+exceedmind2,EXCEED MIND LIMIT,ULT,10.3
+exceedmind3,EXCEED MIND LIMIT,FBD,12.7
+fallingshadow0,Falling Shadow,MIN,1.5
+fallingshadow1,Falling Shadow,EVO,4.5
+fallingshadow2,Falling Shadow,ULT,8.5
+fallingshadow3,Falling Shadow,FBD,11.2
+falsequre0,Falsequre,MIN,2.5
+falsequre1,Falsequre,EVO,6.5
+falsequre2,Falsequre,ULT,10.7
+falsequre3,Falsequre,FBD,12.7
+ffff0,FFFF,MIN,2.5
+ffff1,FFFF,EVO,5.5
+ffff2,FFFF,ULT,9.5
+ffff3,FFFF,FBD,11.7
+fochaos0,F0 CHA0S,MIN,2.5
+fochaos1,F0 CHA0S,EVO,5.5
+fochaos2,F0 CHA0S,ULT,9.5
+fochaos3,F0 CHA0S,FBD,11.8
+greyscalecity0,Greyscale City,MIN,2.5
+greyscalecity1,Greyscale City,EVO,5.5
+greyscalecity2,Greyscale City,ULT,10.3
+greyscalecity3,Greyscale City,FBD,12.3
+hanabi0,Hanabi,MIN,2.5
+hanabi1,Hanabi,EVO,6.5
+hanabi2,Hanabi,ULT,9.5
+hanabi3,Hanabi,FBD,11.1
+hyalouyne0,Hyaloüyne,MIN,3.5
+hyalouyne1,Hyaloüyne,EVO,6.5
+hyalouyne2,Hyaloüyne,ULT,10.3
+hyalouyne3,Hyaloüyne,FBD,12.4
+init0,init(),MIN,2.5
+init1,init(),EVO,5.5
+init2,init(),ULT,9.5
+init3,init(),FBD,11.3
+kirapico0,キラピコ繚乱キラピコリン,MIN,2.5
+kirapico1,キラピコ繚乱キラピコリン,EVO,5.5
+kirapico2,キラピコ繚乱キラピコリン,ULT,9.5
+kirapico3,キラピコ繚乱キラピコリン,FBD,11.3
+kiretsu0,綺劣,MIN,4.5
+kiretsu1,綺劣,EVO,7.5
+kiretsu2,綺劣,ULT,10.7
+kiretsu3,綺劣,FBD,13.3
+latentduality0,Latent Duality,MIN,4.5
+latentduality1,Latent Duality,EVO,7.5
+latentduality2,Latent Duality,ULT,11.7
+latentduality3,Latent Duality,FBD,13.5
+lfdy0,Live Fast Die Young,MIN,2.5
+lfdy1,Live Fast Die Young,EVO,5.5
+lfdy2,Live Fast Die Young,ULT,10.9
+lfdy3,Live Fast Die Young,FBD,12.6
+lightsout0,Lights Out,MIN,4.5
+lightsout1,Lights Out,EVO,7.5
+lightsout2,Lights Out,ULT,10.5
+lightsout3,Lights Out,FBD,12.5
+memoire0,Mémoire,MIN,4.5
+memoire1,Mémoire,EVO,7.5
+memoire2,Mémoire,ULT,11.6
+memoire3,Mémoire,FBD,13.5
+minerva0,Minerva,MIN,2.5
+minerva1,Minerva,EVO,5.5
+minerva2,Minerva,ULT,9.5
+minerva3,Minerva,FBD,11.6
+mirinae0,MIRINAE,MIN,2.5
+mirinae1,MIRINAE,EVO,6.5
+mirinae2,MIRINAE,ULT,9.5
+mirinae3,MIRINAE,FBD,12.1
+moondiver0,M / O / O / N / D / I / V / E / R,MIN,2.5
+moondiver1,M / O / O / N / D / I / V / E / R,EVO,5.5
+moondiver2,M / O / O / N / D / I / V / E / R,ULT,9.5
+moondiver3,M / O / O / N / D / I / V / E / R,FBD,11.7
+moonsliders0,Moonsliders,MIN,3.5
+moonsliders1,Moonsliders,EVO,6.5
+moonsliders2,Moonsliders,ULT,10.5
+moonsliders3,Moonsliders,FBD,13.3
+mydeadlysins0,My Deadly Sins,MIN,2.5
+mydeadlysins1,My Deadly Sins,EVO,6.5
+mydeadlysins2,My Deadly Sins,ULT,9.5
+mydeadlysins3,My Deadly Sins,FBD,12.3
+newvision0,New Vision,MIN,1.5
+newvision1,New Vision,EVO,4.5
+newvision2,New Vision,ULT,9.5
+newvision3,New Vision,FBD,11.0
+noctidea0,Noct Idea,MIN,3.5
+noctidea1,Noct Idea,EVO,6.5
+noctidea2,Noct Idea,ULT,10.8
+noctidea3,Noct Idea,FBD,12.7
+nowiknow0,Now I know,MIN,3.5
+nowiknow1,Now I know,EVO,6.5
+nowiknow2,Now I know,ULT,10.5
+nowiknow3,Now I know,FBD,12.4
+outerjustice0,Outer Justice,MIN,3.5
+outerjustice1,Outer Justice,EVO,6.5
+outerjustice2,Outer Justice,ULT,9.5
+outerjustice3,Outer Justice,FBD,12.5
+papillonblanc0,papillon blanc,MIN,1.5
+papillonblanc1,papillon blanc,EVO,4.5
+papillonblanc2,papillon blanc,ULT,8.5
+papillonblanc3,papillon blanc,FBD,10.3
+phylaxron0,PhylaXron,MIN,6.5
+phylaxron1,PhylaXron,EVO,9.5
+phylaxron2,PhylaXron,ULT,12.6
+phylaxron3,PhylaXron,FBD,14.7
+primevaltexture0,Primeval Texture,MIN,2.5
+primevaltexture1,Primeval Texture,EVO,5.5
+primevaltexture2,Primeval Texture,ULT,8.5
+primevaltexture3,Primeval Texture,FBD,10.3
+reconnect0,Reconnect,MIN,2.5
+reconnect1,Reconnect,EVO,5.5
+reconnect2,Reconnect,ULT,9.5
+reconnect3,Reconnect,FBD,11.1
+reflection0,Re:Flection,MIN,4.5
+reflection1,Re:Flection,EVO,7.5
+reflection2,Re:Flection,ULT,10.1
+reflection3,Re:Flection,FBD,13.1
+scarletespada0,Scarlet Espada,MIN,3.5
+scarletespada1,Scarlet Espada,EVO,6.5
+scarletespada2,Scarlet Espada,ULT,9.5
+scarletespada3,Scarlet Espada,FBD,12.7
+selfconfrontation0,Self-confrontatioN,MIN,3.5
+selfconfrontation1,Self-confrontatioN,EVO,6.5
+selfconfrontation2,Self-confrontatioN,ULT,10.1
+selfconfrontation3,Self-confrontatioN,FBD,12.4
+shadowsofunknown0,Shadows of Unknown,MIN,4.5
+shadowsofunknown1,Shadows of Unknown,EVO,7.5
+shadowsofunknown2,Shadows of Unknown,ULT,10.5
+shadowsofunknown3,Shadows of Unknown,FBD,12.3
+shouldhavebeen0,should have been,MIN,3.5
+shouldhavebeen1,should have been,EVO,6.5
+shouldhavebeen2,should have been,ULT,10.7
+shouldhavebeen3,should have been,FBD,13.5
+sinutopia0,Sin Utopia,MIN,3.5
+sinutopia1,Sin Utopia,EVO,7.5
+sinutopia2,Sin Utopia,ULT,10.3
+sinutopia3,Sin Utopia,FBD,12.9
+sunanokioku0,砂の記憶,MIN,2.5
+sunanokioku1,砂の記憶,EVO,5.5
+sunanokioku2,砂の記憶,ULT,9.5
+sunanokioku3,砂の記憶,FBD,11.3
+tactom0,TACTOM,MIN,4.5
+tactom1,TACTOM,EVO,8.5
+tactom2,TACTOM,ULT,11.8
+tactom3,TACTOM,FBD,14.7
+thingsitreasure0,Things I Treasure,MIN,2.5
+thingsitreasure1,Things I Treasure,EVO,5.5
+thingsitreasure2,Things I Treasure,ULT,9.5
+thingsitreasure3,Things I Treasure,FBD,11.4
+toccatafunebre0,Toccata Funebre,MIN,3.5
+toccatafunebre1,Toccata Funebre,EVO,6.5
+toccatafunebre2,Toccata Funebre,ULT,10.1
+toccatafunebre3,Toccata Funebre,FBD,13.0
+tokonagi0,▓,MIN,6.5
+tokonagi1,▓,EVO,9.5
+tokonagi2,▓,ULT,12.8
+tokonagi3,▓,FBD,15.0
+trajectoryofhope0,Trajectory of Hope,MIN,3.5
+trajectoryofhope1,Trajectory of Hope,EVO,6.5
+trajectoryofhope2,Trajectory of Hope,ULT,10.5
+trajectoryofhope3,Trajectory of Hope,FBD,12.4
+transparency0,Transparency,MIN,1.5
+transparency1,Transparency,EVO,4.5
+transparency2,Transparency,ULT,8.5
+transparency3,Transparency,FBD,10.7
+vesper0,Vesper,MIN,3.5
+vesper1,Vesper,EVO,6.5
+vesper2,Vesper,ULT,10.5
+vesper3,Vesper,FBD,13.3
+withtruth0,With Truth,MIN,1.5
+withtruth1,With Truth,EVO,4.5
+withtruth2,With Truth,ULT,8.5
+withtruth3,With Truth,FBD,10.1
+worldender0,魔王,MIN,4.5
+worldender1,魔王,EVO,7.5
+worldender2,魔王,ULT,10.5
+worldender3,魔王,FBD,13.8
+yggthrasir0,yggthrasir,MIN,3.5
+yggthrasir1,yggthrasir,EVO,6.5
+yggthrasir2,yggthrasir,ULT,10.3
+yggthrasir3,yggthrasir,FBD,12.5
+zetta0,Zetta,MIN,3.5
+zetta1,Zetta,EVO,6.5
+zetta2,Zetta,ULT,10.5
+zetta3,Zetta,FBD,13.9
+zfc0,ZFC,MIN,2.5
+zfc1,ZFC,EVO,6.5
+zfc2,ZFC,ULT,10.8
+zfc3,ZFC,FBD,12.6
+forbiddensouls0,Forbidden Souls,MIN,2.5
+forbiddensouls1,Forbidden Souls,EVO,4.5
+forbiddensouls2,Forbidden Souls,ULT,9.5
+forbiddensouls3,Forbidden Souls,FBD,11.4
+ghostray0,Ghost Ray,MIN,1.5
+ghostray1,Ghost Ray,EVO,4.5
+ghostray2,Ghost Ray,ULT,8.5
+ghostray3,Ghost Ray,FBD,10.0
+wonderroom0,WonderRoom2.0,MIN,3.5
+wonderroom1,WonderRoom2.0,EVO,6.5
+wonderroom2,WonderRoom2.0,ULT,9.5
+wonderroom3,WonderRoom2.0,FBD,10.1
+deepintothevibe0,Deep Into The Vibe,MIN,3.5
+deepintothevibe1,Deep Into The Vibe,EVO,6.5
+deepintothevibe2,Deep Into The Vibe,ULT,10.7
+deepintothevibe3,Deep Into The Vibe,FBD,12.0
+cylin0,cylin,MIN,3.5
+cylin1,cylin,EVO,6.5
+cylin2,cylin,ULT,10.0
+cylin3,cylin,FBD,12.5
+ordirehv0,Ordirehv,MIN,1.5
+ordirehv1,Ordirehv,EVO,4.5
+ordirehv2,Ordirehv,ULT,8.5
+ordirehv3,Ordirehv,FBD,10.1
+rainshower0,驟雨の狭間,MIN,4.5
+rainshower1,驟雨の狭間,EVO,7.5
+rainshower2,驟雨の狭間,ULT,10.3
+rainshower3,驟雨の狭間,FBD,13.3
+albedo0,Albedo,MIN,3.5
+albedo1,Albedo,EVO,6.5
+albedo2,Albedo,ULT,10.1
+albedo3,Albedo,FBD,12.9
+neonvision0,NEONViSION,MIN,3.5
+neonvision1,NEONViSION,EVO,6.5
+neonvision2,NEONViSION,ULT,9.5
+neonvision3,NEONViSION,FBD,11.8
+kuukaku0,空殻,MIN,5.5
+kuukaku1,空殻,EVO,8.5
+kuukaku2,空殻,ULT,11.8
+kuukaku3,空殻,FBD,14.3
+roki0,ロキ,MIN,4.5
+roki1,ロキ,EVO,7.5
+roki2,ロキ,ULT,10.7
+roki3,ロキ,FBD,13.3
+lostonesweeping0,ロストワンの号哭,MIN,2.5
+lostonesweeping1,ロストワンの号哭,EVO,5.5
+lostonesweeping2,ロストワンの号哭,ULT,8.5
+lostonesweeping3,ロストワンの号哭,FBD,11.2
+nonbreathoblige0,ノンブレス・オブリージュ,MIN,3.5
+nonbreathoblige1,ノンブレス・オブリージュ,EVO,6.5
+nonbreathoblige2,ノンブレス・オブリージュ,ULT,9.5
+nonbreathoblige3,ノンブレス・オブリージュ,FBD,12.4
+kakushicommand0,幸せになれる隠しコマンドがあるらしい,MIN,4.5
+kakushicommand1,幸せになれる隠しコマンドがあるらしい,EVO,7.5
+kakushicommand2,幸せになれる隠しコマンドがあるらしい,ULT,10.5
+kakushicommand3,幸せになれる隠しコマンドがあるらしい,FBD,12.7
+monitoring0,モニタリング,MIN,1.5
+monitoring1,モニタリング,EVO,4.5
+monitoring2,モニタリング,ULT,8.5
+monitoring3,モニタリング,FBD,11.1
