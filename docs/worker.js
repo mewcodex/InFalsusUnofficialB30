@@ -59,23 +59,27 @@ selected=b30.filter_scores(ranked,options['difficulties'],options['minLevel'],op
 if not selected: raise b30.InputError('筛选范围内没有成绩。')
 pages=b30.score_pages(selected) if options['mode']=='scores' else [None]
 if len(pages)!=1: raise b30.InputError('绘图引擎版本过旧，请刷新页面后重新选择存档。')
+recent=None
+recent_info=None
+if options['mode']=='b30' and options.get('includeRecent'):
+ recent,recent_info=b30.recent_rating(records,catalog,constants)
 progress_stats=b30.score_progress(selected,catalog,options['difficulties'],options['minLevel'],options['maxLevel'])
 for page in pages:
  if page is not None: page['progress']=progress_stats
 character=options['character'] if options['character']!='auto' else (records.selected_character or 'Nia')
-json.dumps({'pages':len(pages),'skipped':len(skipped),'count':len(selected) if options['mode']=='scores' else min(30,len(selected))})`));
+json.dumps({'recentCount':len(recent) if recent is not None else None,'recentInfo':recent_info,'pages':len(pages),'skipped':len(skipped),'count':len(selected) if options['mode']=='scores' else min(30,len(selected))})`));
    const files=[];
    for(let i=0;i<info.pages;i++){
     progress(`正在生成第 ${i+1} / ${info.pages} 页…`);py.globals.set('page_index',i);
     py.runPython(`page=pages[page_index]
 label=' / '.join(b30.DIFFS[d][0] for d in b30.DIFFS if d in options['difficulties'])
 label+=f"  Lv.{options['minLevel']}-{options['maxLevel']}"
-image=b30.render(page['records'] if page else ranked,catalog,options['name'],character,score_page=page,page_label=f'{page_index+1} / {len(pages)}',filter_label=label)
+image=b30.render(page['records'] if page else ranked,catalog,options['name'],character,score_page=page,page_label=f'{page_index+1} / {len(pages)}',filter_label=label,recent=recent)
 image.save('/page.png',format='PNG')
 image.close()
 del image
 gc.collect()`);
-    files.push({name:`InFalsus-${data.options.mode==='scores'?'Scores':'B30'}-${String(i+1).padStart(2,'0')}.png`,bytes:py.FS.readFile('/page.png')});py.FS.unlink('/page.png');
+    files.push({name:`InFalsus-${data.options.mode==='scores'?'Scores':data.options.includeRecent?'B30-R10':'B30'}-${String(i+1).padStart(2,'0')}.png`,bytes:py.FS.readFile('/page.png')});py.FS.unlink('/page.png');
    }
    postMessage({id,result:{...info,files}},files.map(f=>f.bytes.buffer));
   }else throw Error('未知操作');
